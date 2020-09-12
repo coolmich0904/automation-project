@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15210" started-at="2020-09-12T18:16:26Z" finished-at="2020-09-12T18:16:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15210" started-at="2020-09-12T18:16:26Z" finished-at="2020-09-12T18:16:41Z">
+      <class name="testcases.TC003_SearchProduct">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC003_SearchProduct@6a01e23]" name="init" is-config="true" duration-ms="8029" started-at="2020-09-12T18:16:18Z" finished-at="2020-09-12T18:16:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.TC003_SearchProduct@6a01e23]" name="setup" is-config="true" duration-ms="2052" started-at="2020-09-12T18:16:26Z" finished-at="2020-09-12T18:16:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:testcases.TC003_SearchProduct@6a01e23]" name="searchProduct" duration-ms="12268" started-at="2020-09-12T18:16:28Z" finished-at="2020-09-12T18:16:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC003_SearchProduct@6a01e23]" name="tearDown" is-config="true" duration-ms="868" started-at="2020-09-12T18:16:40Z" finished-at="2020-09-12T18:16:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC003_SearchProduct@6a01e23]" name="teardown" is-config="true" duration-ms="1" started-at="2020-09-12T18:16:41Z" finished-at="2020-09-12T18:16:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TC003_SearchProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
