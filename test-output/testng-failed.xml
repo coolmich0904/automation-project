@@ -4,18 +4,17 @@
   <listeners>
     <listener class-name="utilities.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Search Functionality and File Download Test(failed)">
     <classes>
-      <class name="testcases.TC001_Registration">
+      <class name="smoke.TC003_SearchProduct">
         <methods>
           <include name="teardown"/>
-          <include name="setup"/>
-          <include name="register"/>
-          <include name="logout"/>
           <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="searchProduct"/>
           <include name="init"/>
         </methods>
-      </class> <!-- testcases.TC001_Registration -->
+      </class> <!-- smoke.TC003_SearchProduct -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Search Functionality and File Download Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

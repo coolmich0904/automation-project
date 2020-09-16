@@ -10,6 +10,7 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 import base.BaseClass;
+import pages.CategoriesPage;
 import pages.LandingPage;
 import pages.ProductsPage;
 import utilities.ExtentManager;
@@ -17,19 +18,17 @@ import utilities.ExtentManager;
 public class TC006_Catalog extends BaseClass {
 
 	LandingPage landP;
-	ProductsPage prodP;
+	CategoriesPage catP;
 	JavascriptExecutor jse;
 	
-	
-	ExtentReports extent;
+	ExtentReports report;
 	ExtentManager extentmanager;
 	ExtentTest test;
-	ExtentHtmlReporter htmlReporter;
 	
 	@BeforeTest
 	public void setup() {
-		extent = utilities.ExtentManager.createInstance("C:\\eclipse-workspace\\qaProject1\\src\\test\\resources\\reports\\TC004_BuyProduct.html");
-		test = extent.createTest("TC006_Catalog");
+		report = utilities.ExtentManager.createInstance("C:\\eclipse-workspace\\qaProject1\\src\\test\\resources\\reports\\TC004_BuyProduct.html");
+		test = report.createTest("TC006_Catalog");
 	}
 	
 	@Test
@@ -41,13 +40,13 @@ public class TC006_Catalog extends BaseClass {
 		landP.menuTab1();
 		test.log(Status.INFO, "Clicked Woman tab");
 		
-		prodP = new ProductsPage(driver);
-		prodP.sizeOption3();
+		catP = new CategoriesPage(driver);
+		catP.sizeOption3();
 		landP.pause(3000);
 		jse = (JavascriptExecutor) driver;
 		jse.executeScript("window.scrollBy(260, 350)");
 		
-		prodP.rangeSlider();
+		catP.rangeSlider();
 		landP.pause(3000);
 	}
 }

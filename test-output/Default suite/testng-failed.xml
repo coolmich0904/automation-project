@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.TC006_Catalog">
+      <class name="regression.TC002_VerifyLogin">
         <methods>
+          <include name="VerifyLogin" invocation-numbers="2 3"/>
           <include name="teardown"/>
-          <include name="catalogTest"/>
           <include name="init"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testcases.TC006_Catalog -->
+      </class> <!-- regression.TC002_VerifyLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

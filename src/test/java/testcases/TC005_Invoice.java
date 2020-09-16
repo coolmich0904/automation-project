@@ -2,6 +2,7 @@ package testcases;
 
 import java.util.concurrent.TimeUnit;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -29,9 +30,8 @@ public class TC005_Invoice extends BaseClass {
 	@BeforeTest
 	public void setup() {
 		report = new ExtentReports(
-				"C:\\eclipse-workspace\\qaProject1\\src\\test\\resources\\reports\\TC005_Invoice.html");
+				"C:\\eclipse-workspace\\qaProject1\\resources\\reports\\TC005_Invoice.html");
 		test = report.startTest("File Download Test");
-		driver.get("http://automationpractice.com");
 	}
 
 	
@@ -46,6 +46,7 @@ public class TC005_Invoice extends BaseClass {
 		test.log(LogStatus.INFO, "At Login Page");
 		logP.doLogin("a11@a11.com", "12345");
 		test.log(LogStatus.INFO, "Entered Email and Password");
+		//log.info("Enter Email and submit to register");
 	}
 	
 	@Test (priority = 3)
@@ -55,17 +56,25 @@ public class TC005_Invoice extends BaseClass {
 		
 		myacc.orderHistory();
 		test.log(LogStatus.INFO, "Clicked Order History");
+		//log.info("Clicked Oreder History");
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		myacc.downloadFile();
 		test.log(LogStatus.INFO, "1st file downloded");
-		landP.pause(10000);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);		
+		//log.info("1st file downloded");
+		landP.pause(5000);	
+		test.log(LogStatus.INFO, "Paid the Order");
+		 Assert.assertTrue(myacc.isFileDownloaded("C:\\Users\\irene\\Downloads", ".pdf"));
+		test.log(LogStatus.INFO, "Verified TC005");
+		//log.info("Verified TC005");
 	}
 	
 	@AfterTest
 	public void tearDown() {
+		//log.info("Close browser");
 		driver.quit();
+		//log.info("Post-condition ");
 		report.endTest(test);
+		//log.info("erase the previous data on the report");
 		report.flush();
 	}
 }

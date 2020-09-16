@@ -1,5 +1,7 @@
 package pages;
 
+import java.io.File;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -39,4 +41,39 @@ public class MyAccountPage extends BasePage {
 	public void downloadFile() {
 	    download.click();
 	}
+	
+	/* Check the file from a specific directory with extension */
+    public boolean isFileDownloaded_Ext(String dirPath, String ext){
+        boolean flag = false;
+        File dir = new File("C:\\Users\\irene\\Documents\\filedownloads");
+        File[] files = dir.listFiles();
+        if (files == null || files.length == 0) {
+            flag = false;
+        }
+ 
+        for (int i = 1; i < files.length; i++) {
+            if(files[i].getName().contains(ext)) {
+                flag = true;
+            }
+        }
+        return flag;
+    }
+	
+    /* Check the file from a specific directory with extension */
+    public boolean isFileDownloaded(String dirPath, String ext){
+        boolean flag=false;
+        File dir = new File(dirPath);
+        File[] files = dir.listFiles();
+        if (files == null || files.length == 0) {
+            flag = false;
+        }
+ 
+        for (int i = 1; i < files.length; i++) {
+            if(files[i].getName().contains(ext)) {
+                flag=true;
+            }
+        }
+        return flag;
+    }
+    
 }

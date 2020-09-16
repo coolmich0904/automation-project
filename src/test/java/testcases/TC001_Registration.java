@@ -31,32 +31,36 @@ public class TC001_Registration extends BaseClass {
 	@BeforeTest
 	public void setup() {
 		report = new ExtentReports(
-				"C:\\eclipse-workspace\\qaProject1\\src\\test\\resources\\reports\\TC001_Registration.html");
-		test = report.startTest("File Download Test");
-		driver.get("http://automationpractice.com");
+				"C:\\eclipse-workspace\\qaProject1\\resources\\reports\\TC001_Registration.html");
+		test = report.startTest("TC001 Registration");
 	}
 
 	@Test(priority = 1)
 	public void register() {
 
 		landP = new LandingPage(driver);
-		test.log(LogStatus.INFO, "TC001-REGISTERATION");
 		test.log(LogStatus.INFO, "Landing at Home!!!");
-		landP.doClick();
+		landP.doClick();		
 		test.log(LogStatus.INFO, "Clicked Signin button");
+//		log.info("Clicked Signin");
+		
 		logP = new LoginPage(driver);
 		test.log(LogStatus.INFO, "At Login Page");
-		logP.doRegister("hm009@gmail.com");
-		test.log(LogStatus.INFO, "Entered Email to register");
+		logP.doRegister("hm017@gmail.com");
+		test.log(LogStatus.INFO, "Entered Email and submit to register");
+//		log.info("Enter Email and submit to register");
 
 		caP = new CreateAccountPage(driver);
-
 		caP.doRegister();
+//		log.info("Filled out the registration form");
 		test.log(LogStatus.INFO, "Created a New Account!!");
+//		log.info("Created a New Account!!");
+		
 		actual = driver.getTitle();
 		expected = "My account - My Store";
 		Assert.assertEquals(actual, expected);
 		test.log(LogStatus.INFO,"test completed and passed!!!");
+//		log.info("Verified TC001");
 	}
 
 	@Test(priority = 2)
@@ -69,12 +73,16 @@ public class TC001_Registration extends BaseClass {
 		expected = "Login - My Store";
 		Assert.assertEquals(actual, expected);
 		test.log(LogStatus.INFO,"test completed and passed!!!");
+//		log.info("TC001 Verified");
 	}
 	
 	@AfterTest
 	public void tearDown() {
+//		log.info("Close browser");
 		driver.quit();
+//		log.info("Post-condition ");
 		report.endTest(test);
+//		log.info("erase the previous data on the report");
 		report.flush();
 	}
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name = "utilities.ExtentListeners" />
+</listeners>
+
+  <test name="Verify Login and Buy Products Workflow Test">
+    <classes>
+      <class name="regression.TC002_VerifyLogin"/>
+      <class name="regression.TC004_BuyProduct"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

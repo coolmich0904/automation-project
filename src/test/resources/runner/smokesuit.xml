@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name = "utilities.ExtentListeners" />
+</listeners>
+  <test thread-count="5" name="Search Functionality and File Download Test">
+    <classes>
+      <class name="smoke.TC003_SearchProduct"/>
+      <class name="smoke.TC005_Invoice"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

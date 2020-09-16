@@ -1,5 +1,6 @@
 package testcases;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -26,29 +27,36 @@ public class TC002_VerifyLogin extends BaseClass {
 	LoginPage logP;
 	MyAccountPage myacc;
 	String actual, expected;
-
+	
+	
 	@BeforeTest
 	public void setup() {
 		report = new ExtentReports(
-				"C:\\eclipse-workspace\\qaProject1\\src\\test\\resources\\reports\\TC002_VerifyLogin.html");
-		test = report.startTest("Verify Login");
+				"C:\\eclipse-workspace\\qaProject1\\resources\\reports\\TC002_VerifyLogin.html");
+		test = report.startTest("TC002 Verify Login");
 	}
 
 	@Test(dataProvider = "logindata")
 	public void VerifyLogin(String myEmail, String passwd) {
 
-		test.log(LogStatus.INFO, "TC002-Verify Login");
 		landP = new LandingPage(driver);
 		test.log(LogStatus.INFO, "Landing at Home!!!");
 		landP.doClick();
 		test.log(LogStatus.INFO, "Clicked Signin button");
+//		log.info("Sign in button clicked");
 		logP = new LoginPage(driver);
 		test.log(LogStatus.INFO, "At Login Page");
 		logP.doLogin(myEmail, passwd);
 		test.log(LogStatus.INFO, "Entered Email and Password");
+		
+		actual = driver.getTitle();
+		expected = "My account - My Store";
+		Assert.assertEquals(actual, expected);
+				
 		myacc = new MyAccountPage(driver);
 		test.log(LogStatus.INFO, "TC002_VerifyLogin : completed and passed!!!");
-		myacc.doLogout();
+//		log.info("Logout");
+		myacc.doLogout();		
 		landP.pause(2000);
 	}
 
