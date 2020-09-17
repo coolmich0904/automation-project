@@ -7,10 +7,7 @@ pages\CategoriesPage.class
 base\BasePage.class
 pages\PaymentPage.class
 utilities\ExtentListeners.class
-utilities\ReadExcelFile.class
-utilities\WriterExcelFile.class
 pages\MyAccountPage.class
-testcases\TC007_MultipleLevel.class
 base\BaseClass.class
 pages\LoginPage.class
 testcases\TC004_BuyProduct.class
@@ -25,5 +22,4 @@ utilities\Screeshot.class
 testcases\TC001_Registration.class
 testcases\TC002_VerifyLogin.class
 utilities\ExcelUtils.class
-testcases\TC006_Catalog.class
 pages\LandingPage.class

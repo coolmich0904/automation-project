@@ -46,7 +46,7 @@ public class TC001_Registration extends BaseClass {
 		
 		logP = new LoginPage(driver);
 		test.log(LogStatus.INFO, "At Login Page");
-		logP.doRegister("hm017@gmail.com");
+		logP.doRegister("hm018@gmail.com");
 		test.log(LogStatus.INFO, "Entered Email and submit to register");
 //		log.info("Enter Email and submit to register");
 
