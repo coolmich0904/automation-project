@@ -33,7 +33,7 @@ public class ExtentListeners extends BaseClass implements ITestListener {
 		ExtentTest test = extent
 				.createTest(result.getTestClass().getName() + "  : " + result.getMethod().getMethodName());
 		testReport.set(test);
-
+		System.out.println("/////   Test Started : " + result.getName() + "   /////");
 	}
 
 	public void onTestFailure(ITestResult result) {
@@ -46,7 +46,7 @@ public class ExtentListeners extends BaseClass implements ITestListener {
 		String failureLogg = "TEST CASE FAILED";
 		Markup m = MarkupHelper.createLabel(failureLogg, ExtentColor.RED);
 		testReport.get().log(Status.FAIL, m);
-		
+		System.out.println("Test Failed : " + result.getName());
 		scr = new utilities.Screeshot();
 		try {
 			Screeshot.captureScreenshot();
@@ -60,16 +60,16 @@ public class ExtentListeners extends BaseClass implements ITestListener {
 		if (extent != null) {
 			extent.flush();
 		}
-
+		System.out.println("//////   Test Finished : " + context.getName() + "    /////");
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		// TODO Auto-generated method stub
+		System.out.println("//////   Test Successed : " + result.getName() + "   /////");
 		
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		// TODO Auto-generated method stub
+		System.out.println("//////   Test Skipped : " + result.getName() + "   /////");
 		
 	}
 

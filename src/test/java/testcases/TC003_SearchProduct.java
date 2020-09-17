@@ -6,6 +6,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -17,7 +18,7 @@ import pages.LandingPage;
 import pages.ProductsPage;
 import utilities.ExtentManager;
 
-
+@Listeners(utilities.ExtentListeners.class)
 public class TC003_SearchProduct extends BaseClass {
 
 	LandingPage landP;
@@ -33,6 +34,7 @@ public class TC003_SearchProduct extends BaseClass {
 		report = new ExtentReports(
 				"C:\\eclipse-workspace\\qaProject1\\resources\\reports\\TC003_SearchProduct.html");
 		test = report.startTest("Search Product");
+		
 	}
 
 	@Test
