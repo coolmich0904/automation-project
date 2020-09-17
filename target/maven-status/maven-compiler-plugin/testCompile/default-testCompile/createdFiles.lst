@@ -1,4 +1,6 @@
+base\BaseClass.class
 pages\CreateAccountPage.class
+pages\LoginPage.class
 testcases\TC005_Invoice.class
 testcases\TC003_SearchProduct.class
 regression\TC002_VerifyLogin.class
@@ -6,11 +8,8 @@ smoke\TC005_Invoice.class
 pages\CategoriesPage.class
 base\BasePage.class
 pages\PaymentPage.class
-utilities\ExtentListeners.class
-pages\MyAccountPage.class
-base\BaseClass.class
-pages\LoginPage.class
 testcases\TC004_BuyProduct.class
+utilities\ExtentListeners.class
 pages\ProductsPage.class
 pages\ShoppingCartPage.class
 pages\ProductDetailsPage.class
@@ -23,3 +22,4 @@ testcases\TC001_Registration.class
 testcases\TC002_VerifyLogin.class
 utilities\ExcelUtils.class
 pages\LandingPage.class
+pages\MyAccountPage.class
