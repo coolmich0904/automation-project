@@ -6,7 +6,7 @@
 <listener class-name = "utilities.ExtentListeners" />
 </listeners>
 
-  <test name="Verify Login and Buy Products Workflow Test">
+  <test thread-count="5" name="Verify Login and Buy Products Workflow Test">
     <classes>
       <class name="regression.TC002_VerifyLogin"/>
       <class name="regression.TC004_BuyProduct"/>      
