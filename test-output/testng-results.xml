@@ -1,37 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19677" started-at="2020-09-24T22:41:57 EDT" finished-at="2020-09-24T22:42:17 EDT">
+  <suite name="Default suite" duration-ms="16560" started-at="2020-09-25T02:08:03 EDT" finished-at="2020-09-25T02:08:19 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19677" started-at="2020-09-24T22:41:57 EDT" finished-at="2020-09-24T22:42:17 EDT">
-      <class name="testcases.TC001_Registration">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC001_Registration@3c0a50da]" name="init" is-config="true" duration-ms="8116" started-at="2020-09-24T22:41:49 EDT" finished-at="2020-09-24T22:41:57 EDT">
+    <test name="Default test" duration-ms="16560" started-at="2020-09-25T02:08:03 EDT" finished-at="2020-09-25T02:08:19 EDT">
+      <class name="testcases.TC007_MyAddresses">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC007_MyAddresses@3c0a50da]" name="init" is-config="true" duration-ms="13142" started-at="2020-09-25T02:07:50 EDT" finished-at="2020-09-25T02:08:03 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.TC001_Registration@3c0a50da]" name="setup" is-config="true" duration-ms="5" started-at="2020-09-24T22:41:57 EDT" finished-at="2020-09-24T22:41:57 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.TC007_MyAddresses@3c0a50da]" name="setup" is-config="true" duration-ms="8" started-at="2020-09-25T02:08:03 EDT" finished-at="2020-09-25T02:08:03 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="register()[pri:1, instance:testcases.TC001_Registration@3c0a50da]" name="register" duration-ms="15650" started-at="2020-09-24T22:41:57 EDT" description="Create Account workflow : On Landing page, verify Email. Then Input User&#039;s Information and submit" finished-at="2020-09-24T22:42:13 EDT">
+        <test-method status="PASS" signature="login()[pri:1, instance:testcases.TC007_MyAddresses@3c0a50da]" name="login" duration-ms="4597" started-at="2020-09-25T02:08:03 EDT" description="sample login data" finished-at="2020-09-25T02:08:07 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- register -->
-        <test-method status="PASS" signature="logout()[pri:2, instance:testcases.TC001_Registration@3c0a50da]" name="logout" duration-ms="3185" started-at="2020-09-24T22:42:13 EDT" description="confirm to create the account" finished-at="2020-09-24T22:42:16 EDT">
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="UpdateAddress()[pri:2, instance:testcases.TC007_MyAddresses@3c0a50da]" name="UpdateAddress" duration-ms="4578" started-at="2020-09-25T02:08:07 EDT" description="Edit My Address - State" finished-at="2020-09-25T02:08:12 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC001_Registration@3c0a50da]" name="tearDown" is-config="true" duration-ms="804" started-at="2020-09-24T22:42:16 EDT" finished-at="2020-09-24T22:42:17 EDT">
+        </test-method> <!-- UpdateAddress -->
+        <test-method status="PASS" signature="addNewAddress()[pri:3, instance:testcases.TC007_MyAddresses@3c0a50da]" name="addNewAddress" duration-ms="4498" started-at="2020-09-25T02:08:12 EDT" description="Add a new Address" finished-at="2020-09-25T02:08:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewAddress -->
+        <test-method status="PASS" signature="delNewAddress()[pri:6, instance:testcases.TC007_MyAddresses@3c0a50da]" name="delNewAddress" duration-ms="1922" started-at="2020-09-25T02:08:17 EDT" description="Delete the New Added Address" finished-at="2020-09-25T02:08:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delNewAddress -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC007_MyAddresses@3c0a50da]" name="tearDown" is-config="true" duration-ms="859" started-at="2020-09-25T02:08:18 EDT" finished-at="2020-09-25T02:08:19 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC001_Registration@3c0a50da]" name="teardown" is-config="true" duration-ms="1" started-at="2020-09-24T22:42:17 EDT" finished-at="2020-09-24T22:42:17 EDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC007_MyAddresses@3c0a50da]" name="teardown" is-config="true" duration-ms="1" started-at="2020-09-25T02:08:19 EDT" finished-at="2020-09-25T02:08:19 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- testcases.TC001_Registration -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testcases.TC007_MyAddresses -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

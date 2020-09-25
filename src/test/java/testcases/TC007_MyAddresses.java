@@ -57,7 +57,7 @@ public class TC007_MyAddresses extends BaseClass {
 		test.log(LogStatus.INFO, "At Login Page");
 		log.info("Open Login Page!!!");
 
-		logP.doLogin("a11@a11.com", "54321");
+		logP.doLogin("a11@a11.com", "12345");
 		test.log(LogStatus.INFO, "Entered Email and Password");
 		log.info("Enter Email and submit to register");
 	}

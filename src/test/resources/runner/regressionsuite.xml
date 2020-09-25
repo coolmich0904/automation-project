@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-
-<listeners>
-<listener class-name = "utilities.ExtentListener2" />
-</listeners>
-
-  <test thread-count="5" name="My Account Function Testing">
-    <classes>
-      <class name="regression.TC007_MyAddresses"/>
-      <class name="regression.TC008_MyPersonalInformation"/>
-      <class name="regression.TC009_Wishlist"/>
-      <class name="regression.TC010_Contact"/>
-    </classes>
-  </test> <!-- Test -->
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="regression.TC007_MyAddresses" />
+			<class name="regression.TC008_MyPersonalInformation" />
+			<class name="regression.TC009_Wishlist" />
+			<class name="regression.TC010_Contact" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
