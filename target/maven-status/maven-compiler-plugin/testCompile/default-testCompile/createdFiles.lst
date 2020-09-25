@@ -1,3 +1,4 @@
+base\TestListeners.class
 pages\CreateAccountPage.class
 testcases\TC007_MyAddresses.class
 pages\CategoriesPage.class
