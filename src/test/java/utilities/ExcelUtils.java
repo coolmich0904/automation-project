@@ -15,12 +15,12 @@ public class ExcelUtils {
 	String data;
 	
 	public ExcelUtils (String excelPath, String sheetName) {
-		try {
+		
+		try {			
 		File src = new File(excelPath);
 		FileInputStream fs = new FileInputStream(src);
 		wb = new XSSFWorkbook(fs);
-		sheet =  wb.getSheet(sheetName);
-		
+		sheet =  wb.getSheet(sheetName);		
 		} catch (Exception e) {			
 			e.printStackTrace();
 		}		
@@ -58,6 +58,7 @@ public class ExcelUtils {
 	
 	
 	public String getCellDataString (int rowNum, int colNum) {
+		
 		String cellData = null;
 		try {
 		cellData = sheet.getRow(rowNum).getCell(colNum).getStringCellValue();
@@ -68,11 +69,13 @@ public class ExcelUtils {
 			System.out.println(e.getCause());
 			e.printStackTrace();
 		}
+		
 		return cellData;
 	}
 	
 	
 	public void getCellDataNumber (int rowNum, int colNum) {
+		
 		try {
 		Double cellData = sheet.getRow(rowNum).getCell(colNum).getNumericCellValue();
 		System.out.println(cellData);
@@ -84,7 +87,5 @@ public class ExcelUtils {
 		}
 		
 	}
-	
-	
 	
 }

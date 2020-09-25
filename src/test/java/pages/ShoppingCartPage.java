@@ -12,14 +12,11 @@ public class ShoppingCartPage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath = "//a[@id='cart_quantity_up_2_10_0_372634']//span")
+	@FindBy(xpath = "//i[@class='icon-plus']")
 	WebElement btnIncrease;
 	
 	@FindBy(xpath = "//a[@class='button btn btn-default standard-checkout button-medium']")
 	WebElement btnCheckout;
-	
-	
-	
 	
 	public void increaseQty() {
 		btnIncrease.click();

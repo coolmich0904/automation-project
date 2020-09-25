@@ -1,51 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20163" started-at="2020-09-17T17:24:35 EDT" finished-at="2020-09-17T17:24:55 EDT">
+  <suite name="Suite" duration-ms="19677" started-at="2020-09-24T22:41:57 EDT" finished-at="2020-09-24T22:42:17 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20163" started-at="2020-09-17T17:24:35 EDT" finished-at="2020-09-17T17:24:55 EDT">
-      <class name="smoke.TC005_Invoice">
-        <test-method status="PASS" signature="init()[pri:0, instance:smoke.TC005_Invoice@ea1a8d5]" name="init" is-config="true" duration-ms="8503" started-at="2020-09-17T17:24:26 EDT" finished-at="2020-09-17T17:24:35 EDT">
+    <test name="Test" duration-ms="19677" started-at="2020-09-24T22:41:57 EDT" finished-at="2020-09-24T22:42:17 EDT">
+      <class name="testcases.TC001_Registration">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC001_Registration@3c0a50da]" name="init" is-config="true" duration-ms="8116" started-at="2020-09-24T22:41:49 EDT" finished-at="2020-09-24T22:41:57 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:smoke.TC005_Invoice@ea1a8d5]" name="setup" is-config="true" duration-ms="2" started-at="2020-09-17T17:24:35 EDT" finished-at="2020-09-17T17:24:35 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.TC001_Registration@3c0a50da]" name="setup" is-config="true" duration-ms="5" started-at="2020-09-24T22:41:57 EDT" finished-at="2020-09-24T22:41:57 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:1, instance:smoke.TC005_Invoice@ea1a8d5]" name="login" duration-ms="3118" started-at="2020-09-17T17:24:35 EDT" finished-at="2020-09-17T17:24:38 EDT">
+        <test-method status="PASS" signature="register()[pri:1, instance:testcases.TC001_Registration@3c0a50da]" name="register" duration-ms="15650" started-at="2020-09-24T22:41:57 EDT" description="Create Account workflow : On Landing page, verify Email. Then Input User&#039;s Information and submit" finished-at="2020-09-24T22:42:13 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="invoice()[pri:3, instance:smoke.TC005_Invoice@ea1a8d5]" name="invoice" duration-ms="5969" started-at="2020-09-17T17:24:38 EDT" finished-at="2020-09-17T17:24:44 EDT">
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="logout()[pri:2, instance:testcases.TC001_Registration@3c0a50da]" name="logout" duration-ms="3185" started-at="2020-09-24T22:42:13 EDT" description="confirm to create the account" finished-at="2020-09-24T22:42:16 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invoice -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:smoke.TC005_Invoice@ea1a8d5]" name="tearDown" is-config="true" duration-ms="24" started-at="2020-09-17T17:24:55 EDT" finished-at="2020-09-17T17:24:55 EDT">
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC001_Registration@3c0a50da]" name="tearDown" is-config="true" duration-ms="804" started-at="2020-09-24T22:42:16 EDT" finished-at="2020-09-24T22:42:17 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:smoke.TC005_Invoice@ea1a8d5]" name="teardown" is-config="true" duration-ms="0" started-at="2020-09-17T17:24:55 EDT" finished-at="2020-09-17T17:24:55 EDT">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.TC001_Registration@3c0a50da]" name="teardown" is-config="true" duration-ms="1" started-at="2020-09-24T22:42:17 EDT" finished-at="2020-09-24T22:42:17 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- smoke.TC005_Invoice -->
-      <class name="smoke.TC003_SearchProduct">
-        <test-method status="PASS" signature="setup()[pri:0, instance:smoke.TC003_SearchProduct@1563da5]" name="setup" is-config="true" duration-ms="93" started-at="2020-09-17T17:24:35 EDT" finished-at="2020-09-17T17:24:35 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchProduct()[pri:0, instance:smoke.TC003_SearchProduct@1563da5]" name="searchProduct" duration-ms="10060" started-at="2020-09-17T17:24:44 EDT" finished-at="2020-09-17T17:24:54 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:smoke.TC003_SearchProduct@1563da5]" name="tearDown" is-config="true" duration-ms="869" started-at="2020-09-17T17:24:54 EDT" finished-at="2020-09-17T17:24:55 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- smoke.TC003_SearchProduct -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testcases.TC001_Registration -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

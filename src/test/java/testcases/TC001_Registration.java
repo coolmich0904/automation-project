@@ -3,6 +3,7 @@ package testcases;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -16,6 +17,7 @@ import pages.LoginPage;
 import pages.MyAccountPage;
 import utilities.ExtentManager;
 
+@Listeners(utilities.ExtentListeners.class)
 public class TC001_Registration extends BaseClass {
 
 	ExtentReports report;
@@ -30,59 +32,81 @@ public class TC001_Registration extends BaseClass {
 
 	@BeforeTest
 	public void setup() {
-		report = new ExtentReports(
-				"C:\\eclipse-workspace\\qaProject1\\resources\\reports\\TC001_Registration.html");
-		test = report.startTest("TC001 Registration");
+		report = new ExtentReports("C:\\eclipse-workspace\\qaProject1\\resources\\reports\\TC001_Registration.html");
+		test = report.startTest("Registration");
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1, description = "Create Account workflow : On Landing page, verify Email. Then Input User's Information and submit")
 	public void register() {
 
+		test.log(LogStatus.INFO, "TC001_Registration");
 		landP = new LandingPage(driver);
 		test.log(LogStatus.INFO, "Landing at Home!!!");
-		landP.doClick();		
+		log.info("Landing At HOME!!!");
+		landP.doClick();
 		test.log(LogStatus.INFO, "Clicked Signin button");
-//		log.info("Clicked Signin");
-		
-		logP = new LoginPage(driver);
-		test.log(LogStatus.INFO, "At Login Page");
-		logP.doRegister("hm018@gmail.com");
-		test.log(LogStatus.INFO, "Entered Email and submit to register");
-//		log.info("Enter Email and submit to register");
+		log.info("Clicked Signin");
 
+		test.log(LogStatus.INFO, "Open Login Page");
+		log.info("Open Login Page!!!");
+		logP = new LoginPage(driver);
+
+		logP.doRegister("toto007@gmail.com");
+		test.log(LogStatus.INFO, "Entered Email and submit to register");
+		log.info("Enter Email and submit to register");
+
+		test.log(LogStatus.INFO, "Open CreateAccount Page");
+		log.info("Open CreateAccount Page!!!");
 		caP = new CreateAccountPage(driver);
+
+		test.log(LogStatus.INFO, "Fill out the registration form");
+		log.info("Filled out the registration form");
 		caP.doRegister();
-//		log.info("Filled out the registration form");
+		landP.pause(10000);
 		test.log(LogStatus.INFO, "Created a New Account!!");
-//		log.info("Created a New Account!!");
-		
+		log.info("Created a New Account!!");
+
+		test.log(LogStatus.INFO, "Test verify using title");
+		log.info("Assert with title name");
 		actual = driver.getTitle();
 		expected = "My account - My Store";
 		Assert.assertEquals(actual, expected);
-		test.log(LogStatus.INFO,"test completed and passed!!!");
-//		log.info("Verified TC001");
+
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 2, description = "confirm to create the account")
 	public void logout() {
+
+		test.log(LogStatus.INFO, "Open MyAccount Page");
+		log.info("Open MyAccount Page!!!");
 		myacc = new MyAccountPage(driver);
+
 		myacc.doLogout();
 		test.log(LogStatus.INFO, "Logout. Bye~");
+		log.info("Logout !!!");
 		landP.pause(2000);
+
+		test.log(LogStatus.INFO, "Test verify using title");
+		log.info("Assert with title name");
 		actual = driver.getTitle();
 		expected = "Login - My Store";
 		Assert.assertEquals(actual, expected);
-		test.log(LogStatus.INFO,"test completed and passed!!!");
-//		log.info("TC001 Verified");
+
 	}
-	
+
 	@AfterTest
 	public void tearDown() {
-//		log.info("Close browser");
+
+		log.info("Close browser");
+		test.log(LogStatus.INFO, "Close Browser");
 		driver.quit();
-//		log.info("Post-condition ");
+
+		test.log(LogStatus.INFO, "Post-condition");
+		log.info("Post-condition ");
 		report.endTest(test);
-//		log.info("erase the previous data on the report");
+
+		test.log(LogStatus.INFO, "Erase the previous data on the report");
+		log.info("Erase the previous data on the report");
 		report.flush();
 	}
 }

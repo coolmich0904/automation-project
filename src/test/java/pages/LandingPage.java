@@ -17,7 +17,7 @@ public class LandingPage extends BasePage{
 	@FindBy(xpath = "//a[@class='login']")
 	public WebElement btnSignin;	
 	
-	@FindBy(linkText = "Women")
+	@FindBy(xpath = "//a[@class='sf-with-ul'][contains(text(),'Women')]")
 	public WebElement btnWoman;
 	
 	@FindBy(id = "layered_id_attribute_group_3")
@@ -37,6 +37,7 @@ public class LandingPage extends BasePage{
 	public WebElement btnSearch;
 	
 	public void doClick() {
+		btnSignin.click();
 		btnSignin.click();
 	}
 	

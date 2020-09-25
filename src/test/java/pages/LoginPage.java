@@ -15,6 +15,9 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath = "//input[@id='email_create']")
 	public WebElement createEmail;
 	
+	@FindBy(xpath = "//li[contains(text(),'Invalid email address.')]")
+	public WebElement alert;
+	
 	@FindBy(xpath = "//input[@id='email']")
 	public WebElement txtEmail;
 	
@@ -34,8 +37,10 @@ public class LoginPage extends BasePage {
 	public void doRegister(String myEmail) {
 		createEmail.sendKeys(myEmail);
 		btnRegister.click();
+		//createEmail.clear();
 	}
 	
+
 	public void doLogin(String myEmail, String myPword) {
 		txtEmail.sendKeys(myEmail);
 		txtPassword.sendKeys(myPword);

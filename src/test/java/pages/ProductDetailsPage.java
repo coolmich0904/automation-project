@@ -11,8 +11,7 @@ public class ProductDetailsPage extends BasePage{
 	
 	public ProductDetailsPage(WebDriver driver) {
 		super(driver);
-	}
-	
+	}	
 
 	@FindBy(xpath = "//img[@id='bigpic']")
 	WebElement bigPicure;

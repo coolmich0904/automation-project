@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.Date;
 
+import org.testng.ISuiteListener;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -14,12 +15,14 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.relevantcodes.extentreports.LogStatus;
 
 import base.BaseClass;
 
-public class ExtentListeners extends BaseClass implements ITestListener {
+public class ExtentListeners extends BaseClass implements ITestListener, ISuiteListener {
 
-	utilities.Screeshot scr;
+	utilities.Screenshot scr;
+	
 	static Date d = new Date();
 	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
 
@@ -33,7 +36,7 @@ public class ExtentListeners extends BaseClass implements ITestListener {
 		ExtentTest test = extent
 				.createTest(result.getTestClass().getName() + "  : " + result.getMethod().getMethodName());
 		testReport.set(test);
-		System.out.println("/////   Test Started : " + result.getName() + "   /////");
+		System.out.println("*****   Test Started : " + result.getName());
 	}
 
 	public void onTestFailure(ITestResult result) {
@@ -47,12 +50,13 @@ public class ExtentListeners extends BaseClass implements ITestListener {
 		Markup m = MarkupHelper.createLabel(failureLogg, ExtentColor.RED);
 		testReport.get().log(Status.FAIL, m);
 		System.out.println("Test Failed : " + result.getName());
-		scr = new utilities.Screeshot();
+		scr = new utilities.Screenshot();
 		try {
-			Screeshot.captureScreenshot();
+			Screenshot.captureScreenshot();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+		
 	}
 
 	public void onFinish(ITestContext context) {
@@ -60,16 +64,25 @@ public class ExtentListeners extends BaseClass implements ITestListener {
 		if (extent != null) {
 			extent.flush();
 		}
-		System.out.println("//////   Test Finished : " + context.getName() + "    /////");
+		Markup m = MarkupHelper.createLabel("Test Finished", ExtentColor.BLUE);
+		testReport.get().log(Status.INFO, m);
+		System.out.println("*****   Test Finished : " + context.getName());
 	}
 
 	public void onTestSuccess(ITestResult result) {
-		System.out.println("//////   Test Successed : " + result.getName() + "   /////");
 		
+		//test.log(LogStatus.PASS, "SUCCESS");
+		Markup m = MarkupHelper.createLabel("Test Successed", ExtentColor.GREEN);
+		testReport.get().log(Status.PASS, m);
+		System.out.println("*****   Test Successed : " + result.getName());
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		System.out.println("//////   Test Skipped : " + result.getName() + "   /////");
+		
+		test.log(LogStatus.SKIP, "Test Skipped");
+		Markup m = MarkupHelper.createLabel("Test Skipped", ExtentColor.ORANGE);
+		testReport.get().log(Status.SKIP, m);
+		System.out.println("*****   Test Skipped : " + result.getName());
 		
 	}
 
@@ -79,7 +92,8 @@ public class ExtentListeners extends BaseClass implements ITestListener {
 	}
 
 	public void onStart(ITestContext context) {
-		// TODO Auto-generated method stub
+
+		
 		
 	}
 

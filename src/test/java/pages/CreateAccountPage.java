@@ -29,8 +29,19 @@ public class CreateAccountPage extends BasePage {
 	@FindBy(id="email")
 	WebElement email;
 	
-	@FindBy(id="passwd")
+	@FindBy(xpath = "//input[@id='passwd']")
+	WebElement password;
+	
+	
+	@FindBy(xpath="//input[@id='old_passwd']")
 	WebElement passwd;
+	
+	@FindBy(xpath="//input[@id='passwd']")
+	WebElement newpasswd;
+	
+	@FindBy(xpath="//input[@id='confirmation']")
+	WebElement conpasswd;
+	
 	
 	@FindBy(xpath="//select[@id='days']")
 	WebElement day;
@@ -89,27 +100,31 @@ public class CreateAccountPage extends BasePage {
 	@FindBy(xpath="//span[contains(text(),'Register')]")
 	WebElement btnRegister;	
 	
+	@FindBy(xpath = "//span[contains(text(),'Save')]")
+	WebElement btnSave;
+	
+	
 	public void submit() {
 		btnRegister.click();
 	}
 	
 	public void doRegister() {
-		//radio1.click();
+		radio1.click();
 		fname.sendKeys("Hamay");
 		lname.sendKeys("Gorski");		
-		passwd.sendKeys("hm002");
-		/*
+		password.sendKeys("hm002");
+		
 		Select sd = new Select(day);
-			sd.selectByVisibleText("15");
+			sd.selectByValue("15");
 		Select sm = new Select(month);
-			sm.selectByVisibleText("8");
+			sm.selectByValue("8");
 		Select sy = new Select(year);
-			sy.selectByVisibleText("2000");
+			sy.selectByValue("2000");
 	
 		newsletter.click();
 		specialoffer.click();
-		*/
-		//company.sendKeys("mike company");
+		
+		company.sendKeys("mike company");
 		addr1.sendKeys("123 west");
 		city.sendKeys("New York");
 		
@@ -125,6 +140,35 @@ public class CreateAccountPage extends BasePage {
 		cellp.sendKeys("1234567890");
 		//alias.sendKeys();
 		submit();
+	}
+	
+	public void doUpdate() {
+		radio1.click();
+		email.sendKeys("");
+		passwd.sendKeys("12345");
+		newpasswd.sendKeys("54321");
+		conpasswd.sendKeys("54321");
+		
+		Select sd = new Select(day);
+			sd.selectByValue("15");
+		Select sm = new Select(month);
+			sm.selectByValue("8");
+		Select sy = new Select(year);
+			sy.selectByValue("2000");
+	
+		newsletter.click();
+		specialoffer.click();
+	}
+	
+	public void reverseUpdate() {
+		
+		passwd.sendKeys("54321");
+		newpasswd.sendKeys("12345");
+		conpasswd.sendKeys("12345");
+	}
+	
+	public void btnSave() {
+		btnSave.click();
 	}
 	
 }

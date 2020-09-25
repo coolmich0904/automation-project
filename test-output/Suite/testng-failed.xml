@@ -4,17 +4,17 @@
   <listeners>
     <listener class-name="utilities.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="Search Functionality and File Download Test(failed)">
+  <test thread-count="5" name="DDT_Registration(failed)">
     <classes>
-      <class name="smoke.TC003_SearchProduct">
+      <class name="testcases.TC020_InvalidData">
         <methods>
           <include name="teardown"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="searchProduct"/>
+          <include name="verifyEmail" invocation-numbers="0 1 2 3 4 5 6"/>
           <include name="init"/>
         </methods>
-      </class> <!-- smoke.TC003_SearchProduct -->
+      </class> <!-- testcases.TC020_InvalidData -->
     </classes>
-  </test> <!-- Search Functionality and File Download Test(failed) -->
+  </test> <!-- DDT_Registration(failed) -->
 </suite> <!-- Failed suite [Suite] -->

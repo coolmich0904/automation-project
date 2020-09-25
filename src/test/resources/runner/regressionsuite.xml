@@ -3,13 +3,15 @@
 <suite name="Suite">
 
 <listeners>
-<listener class-name = "utilities.ExtentListeners" />
+<listener class-name = "utilities.ExtentListener2" />
 </listeners>
 
-  <test thread-count="5" name="Verify Login and Buy Products Workflow Test">
+  <test thread-count="5" name="My Account Function Testing">
     <classes>
-      <class name="regression.TC002_VerifyLogin"/>
-      <class name="regression.TC004_BuyProduct"/>      
+      <class name="regression.TC007_MyAddresses"/>
+      <class name="regression.TC008_MyPersonalInformation"/>
+      <class name="regression.TC009_Wishlist"/>
+      <class name="regression.TC010_Contact"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
