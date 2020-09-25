@@ -1,54 +1,45 @@
 package utilities;
 
+import java.io.File;
+import java.util.Date;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-
 public class ExtentManager {
-	
-private static ExtentReports extent;
-	
 
-public static ExtentReports createInstance(String fileName) {
-	
-    ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(fileName);
-   
-    htmlReporter.config().setTheme(Theme.DARK);
-    htmlReporter.config().setDocumentTitle(fileName);
-    htmlReporter.config().setEncoding("utf-8");
-    htmlReporter.config().setReportName(fileName);
-    
-    extent = new ExtentReports();
-    extent.attachReporter(htmlReporter);
-    extent.setSystemInfo("Automation Tester", "Irene");
-    extent.setSystemInfo("Company", "busyQA");
-    extent.setSystemInfo("Build", "G2.1");
-    
-    
-    return extent;
-}
+	private static ExtentReports extent;
 
+	public static ExtentReports createInstance() {
 
-/*  public static String screenshotPath;
-public static String screenshotName;
+		String fileName = getReportName();
+		String directory = System.getProperty("user.dir") + "/ExtentReports/";
 
-public static void captureScreenshot() {
+		new File(directory).mkdirs();
 
-	File scrFile = ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.FILE);
+		String path = directory + fileName;
 
-	Date d = new Date();
-	screenshotName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(path);
 
-	try {
-		FileUtils.copyFile(scrFile, new File(System.getProperty("user.dir") + "\\reports\\" + screenshotName));
-	} catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+		htmlReporter.config().setTheme(Theme.DARK);
+		htmlReporter.config().setDocumentTitle(fileName);
+		htmlReporter.config().setEncoding("utf-8");
+		htmlReporter.config().setReportName("Automation Test Result");
+
+		extent = new ExtentReports();
+		extent.attachReporter(htmlReporter);
+		extent.setSystemInfo("Automation Tester", "Irene");
+		extent.setSystemInfo("Company", "busyQA");
+		extent.setSystemInfo("Build", "Maven");
+
+		return extent;
 	}
 
-
-}*/
-
+	public static String getReportName() {
+		Date d = new Date();
+		String fileName = "AutomationReport_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
+		return fileName;
+	}
 
 }

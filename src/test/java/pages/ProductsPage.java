@@ -12,7 +12,7 @@ public class ProductsPage extends BasePage {
 		super(driver);
 	}
 	
-	@FindBy(xpath ="//ul[@id='homefeatured']//li[@class='ajax_block_product col-xs-12 col-sm-4 col-md-3 last-item-of-mobile-line']//i[@class='icon-eye-open']")
+	@FindBy(xpath ="//li[@class='ajax_block_product col-xs-12 col-sm-6 col-md-4 last-item-of-tablet-line']//img[@class='replace-2x img-responsive']")
 	WebElement proPic;
 
 	@FindBy(className = "icon-th-list")

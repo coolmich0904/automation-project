@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Verify Login">
-    <classes>
-      <class name="ddt.TC004_VerifyLogin"/>
-    </classes>
-  </test> <!-- Test -->
+	<listeners>
+		<listener class-name="base.TestListeners" />
+	</listeners>
+
+	<test thread-count="5" name="Data Driven Test">
+		<classes>
+			<class name="ddt.TC004_VerifyLogin" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

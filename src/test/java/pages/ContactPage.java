@@ -30,6 +30,9 @@ public class ContactPage extends BasePage {
 	@FindBy(xpath = "//textarea[@id='message']")
 	WebElement btnmessage;
 	
+	@FindBy(xpath = "//p[@class='alert alert-success']")
+	WebElement successmsg;
+	
 	
 	public void btnContact() {
 		btncontact.click();
@@ -50,6 +53,11 @@ public class ContactPage extends BasePage {
 	
 	public void btnMsg() {
 		btnmessage.sendKeys("wtesfygdvuzshdvb..ovdhba,ugefcbasjh.aoifbvcna");
+	}
+	
+	
+	public String successMsg() {
+		return successmsg.getText();
 	}
 	
 }

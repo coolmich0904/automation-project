@@ -3006,3 +3006,1568 @@
 2020-09-25 02:08:19 INFO  IRqaLogger:140 - Post-condition 
 2020-09-25 02:08:19 INFO  IRqaLogger:144 - Erase the previous data on the report
 2020-09-25 02:08:19 INFO  IRqaLogger:77 - Close the Browser
+2020-09-25 02:49:23 DEBUG IRqaLogger:42 - loading the config property file
+2020-09-25 02:49:27 INFO  IRqaLogger:49 - Open Chrome Browser
+2020-09-25 02:49:27 INFO  IRqaLogger:64 - Get Website URL
+2020-09-25 02:49:29 INFO  IRqaLogger:66 - Maximize the Browser
+2020-09-25 02:49:31 INFO  IRqaLogger:68 - Global Wait
+2020-09-25 02:49:31 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 02:49:31 INFO  IRqaLogger:49 - Enter Serach keyword - printed
+2020-09-25 02:49:32 INFO  IRqaLogger:52 - Open Product Page as the result of the serch
+2020-09-25 02:49:32 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 02:49:32 INFO  IRqaLogger:62 - Global wait
+2020-09-25 02:49:43 INFO  IRqaLogger:99 - Close browser
+2020-09-25 02:49:43 INFO  IRqaLogger:104 - Post-condition 
+2020-09-25 02:49:43 INFO  IRqaLogger:108 - Erase the previous data on the report
+2020-09-25 02:49:43 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 02:49:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-09-25 02:49:43 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-09-25 02:49:43 DEBUG cache:45 - Loading template for "Extent.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-09-25 02:49:44 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2020-09-25 02:49:44 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2020-09-25 02:49:44 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2020-09-25 02:49:44 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2020-09-25 02:49:44 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2020-09-25 02:49:44 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2020-09-25 02:49:44 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2020-09-25 02:49:44 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2020-09-25 02:49:44 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2020-09-25 02:49:44 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2020-09-25 02:49:44 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2020-09-25 02:49:44 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2020-09-25 02:49:44 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2020-09-25 02:49:44 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2020-09-25 02:49:44 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2020-09-25 02:49:44 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2020-09-25 02:49:44 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2020-09-25 02:49:44 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2020-09-25 02:49:44 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2020-09-25 02:49:44 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2020-09-25 02:49:44 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2020-09-25 02:49:44 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2020-09-25 02:49:44 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2020-09-25 02:49:44 INFO  IRqaLogger:76 - Close the Browser
+2020-09-25 09:26:15 DEBUG IRqaLogger:42 - loading the config property file
+2020-09-25 09:26:19 INFO  IRqaLogger:49 - Open Chrome Browser
+2020-09-25 09:26:19 INFO  IRqaLogger:64 - Get Website URL
+2020-09-25 09:26:22 INFO  IRqaLogger:66 - Maximize the Browser
+2020-09-25 09:26:24 INFO  IRqaLogger:68 - Global Wait
+2020-09-25 09:26:24 INFO  IRqaLogger:43 - Landing At HOME!!!
+2020-09-25 09:26:26 INFO  IRqaLogger:48 - Clicked Woman tab
+2020-09-25 09:26:26 INFO  IRqaLogger:51 - Ready to filter from Category
+2020-09-25 09:26:26 INFO  IRqaLogger:55 - Chose Size
+2020-09-25 09:26:26 INFO  IRqaLogger:59 - Scroll down
+2020-09-25 09:26:26 INFO  IRqaLogger:64 - Move the Right Slider to Left to filter
+2020-09-25 09:26:26 INFO  IRqaLogger:68 - Verify through the movement checking
+2020-09-25 09:26:28 INFO  IRqaLogger:78 - Close browser
+2020-09-25 09:26:29 INFO  IRqaLogger:83 - Post-condition 
+2020-09-25 09:26:29 INFO  IRqaLogger:87 - Erase the previous data on the report
+2020-09-25 09:26:29 INFO  IRqaLogger:76 - Close the Browser
+2020-09-25 11:20:05 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 11:20:08 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 11:20:08 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 11:20:10 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 11:20:12 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 11:20:13 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 11:20:13 INFO  IRqaLogger:49 - Enter Serach keyword - printed
+2020-09-25 11:20:14 INFO  IRqaLogger:52 - Open Product Page as the result of the serch
+2020-09-25 11:20:14 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 11:20:14 INFO  IRqaLogger:62 - Global wait
+2020-09-25 11:20:24 INFO  IRqaLogger:99 - Close browser
+2020-09-25 11:20:25 INFO  IRqaLogger:104 - Post-condition 
+2020-09-25 11:20:25 INFO  IRqaLogger:108 - Erase the previous data on the report
+2020-09-25 11:20:25 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 11:20:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-09-25 11:20:25 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-09-25 11:20:25 DEBUG cache:45 - Loading template for "Extent.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-09-25 11:20:25 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 11:23:13 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 11:23:17 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 11:23:17 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 11:23:21 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 11:23:23 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 11:23:23 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 11:23:23 INFO  IRqaLogger:49 - Enter Serach keyword - printed
+2020-09-25 11:23:24 INFO  IRqaLogger:52 - Open Product Page as the result of the serch
+2020-09-25 11:23:24 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 11:23:24 INFO  IRqaLogger:62 - Global wait
+2020-09-25 11:23:24 INFO  IRqaLogger:67 - Quick view displayed
+2020-09-25 11:23:24 INFO  IRqaLogger:74 - Verified!!
+2020-09-25 11:23:34 INFO  IRqaLogger:99 - Close browser
+2020-09-25 11:23:35 INFO  IRqaLogger:104 - Post-condition 
+2020-09-25 11:23:35 INFO  IRqaLogger:108 - Erase the previous data on the report
+2020-09-25 11:23:35 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 11:23:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-09-25 11:23:35 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-09-25 11:23:35 DEBUG cache:45 - Loading template for "Extent.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-09-25 11:23:35 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 11:26:13 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 11:26:16 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 11:26:16 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 11:26:19 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 11:26:21 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 11:26:21 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 11:26:21 INFO  IRqaLogger:49 - Enter Serach keyword - printed
+2020-09-25 11:26:22 INFO  IRqaLogger:52 - Open Product Page as the result of the serch
+2020-09-25 11:26:22 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 11:26:22 INFO  IRqaLogger:62 - Global wait
+2020-09-25 11:26:22 INFO  IRqaLogger:67 - Quick view displayed
+2020-09-25 11:26:22 INFO  IRqaLogger:74 - Verified!!
+2020-09-25 11:26:23 INFO  IRqaLogger:78 - Closed Quick View
+2020-09-25 11:26:24 INFO  IRqaLogger:82 - Listview displayed
+2020-09-25 11:26:25 INFO  IRqaLogger:86 - Shoes Product details
+2020-09-25 11:26:25 INFO  IRqaLogger:92 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 11:26:25 INFO  IRqaLogger:99 - Close browser
+2020-09-25 11:26:26 INFO  IRqaLogger:104 - Post-condition 
+2020-09-25 11:26:26 INFO  IRqaLogger:108 - Erase the previous data on the report
+2020-09-25 11:26:26 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 11:26:26 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-09-25 11:26:26 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-09-25 11:26:26 DEBUG cache:45 - Loading template for "Extent.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-09-25 11:26:26 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 11:29:16 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 11:29:20 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 11:29:20 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 11:29:23 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 11:29:25 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 11:29:25 INFO  IRqaLogger:49 - Landing At HOME!!!
+2020-09-25 11:29:27 INFO  IRqaLogger:54 - Clicked Signin
+2020-09-25 11:29:27 INFO  IRqaLogger:58 - Open Login Page!!!
+2020-09-25 11:29:28 INFO  IRqaLogger:62 - Enter Email and submit to register
+2020-09-25 11:29:29 INFO  IRqaLogger:71 - Clicked My Addresse
+2020-09-25 11:29:29 INFO  IRqaLogger:75 - Opened My Addresses Page
+2020-09-25 11:29:29 INFO  IRqaLogger:78 - Scroll down
+2020-09-25 11:29:29 INFO  IRqaLogger:84 - Clicked Updatebutton of my Address
+2020-09-25 11:29:30 INFO  IRqaLogger:89 - Updated the state
+2020-09-25 11:29:30 INFO  IRqaLogger:92 - Back to My Addresses Page
+2020-09-25 11:29:33 INFO  IRqaLogger:101 - Clicked Add a New Address
+2020-09-25 11:29:36 INFO  IRqaLogger:106 - Added a New Address for My Sister
+2020-09-25 11:29:36 INFO  IRqaLogger:109 - When the last item displays, the test is successful!
+2020-09-25 11:29:38 INFO  IRqaLogger:120 - Delete the New Added Address
+2020-09-25 11:29:38 INFO  IRqaLogger:126 - When the displays, the test is FAILURE!
+2020-09-25 11:29:39 INFO  IRqaLogger:135 - Close browser
+2020-09-25 11:29:39 INFO  IRqaLogger:140 - Post-condition 
+2020-09-25 11:29:39 INFO  IRqaLogger:144 - Erase the previous data on the report
+2020-09-25 11:29:40 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 11:29:57 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 11:30:01 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 11:30:01 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 11:30:03 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 11:30:05 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 11:30:05 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 11:30:05 INFO  IRqaLogger:49 - Enter Serach keyword - printed
+2020-09-25 11:30:06 INFO  IRqaLogger:52 - Open Product Page as the result of the serch
+2020-09-25 11:30:06 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 11:30:06 INFO  IRqaLogger:62 - Global wait
+2020-09-25 11:30:06 INFO  IRqaLogger:67 - Quick view displayed
+2020-09-25 11:30:06 INFO  IRqaLogger:74 - Verified!!
+2020-09-25 11:30:07 INFO  IRqaLogger:78 - Closed Quick View
+2020-09-25 11:30:08 INFO  IRqaLogger:82 - Listview displayed
+2020-09-25 11:30:08 INFO  IRqaLogger:86 - Shoes Product details
+2020-09-25 11:30:09 INFO  IRqaLogger:92 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 11:30:09 INFO  IRqaLogger:99 - Close browser
+2020-09-25 11:30:10 INFO  IRqaLogger:104 - Post-condition 
+2020-09-25 11:30:10 INFO  IRqaLogger:108 - Erase the previous data on the report
+2020-09-25 11:30:10 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 11:35:19 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 11:35:23 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 11:35:23 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 11:35:25 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 11:35:27 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 11:35:27 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 11:35:27 INFO  IRqaLogger:49 - Enter Serach keyword - printed
+2020-09-25 11:35:28 INFO  IRqaLogger:52 - Open Product Page as the result of the serch
+2020-09-25 11:35:28 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 11:35:28 INFO  IRqaLogger:62 - Global wait
+2020-09-25 11:35:29 INFO  IRqaLogger:67 - Quick view displayed
+2020-09-25 11:35:29 INFO  IRqaLogger:74 - Verified!!
+2020-09-25 11:35:30 INFO  IRqaLogger:78 - Closed Quick View
+2020-09-25 11:35:30 INFO  IRqaLogger:82 - Listview displayed
+2020-09-25 11:35:31 INFO  IRqaLogger:86 - Shoes Product details
+2020-09-25 11:35:31 INFO  IRqaLogger:92 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 11:35:31 INFO  IRqaLogger:99 - Close browser
+2020-09-25 11:35:32 INFO  IRqaLogger:104 - Post-condition 
+2020-09-25 11:35:32 INFO  IRqaLogger:108 - Erase the previous data on the report
+2020-09-25 11:35:32 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 11:41:01 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 11:41:05 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 11:41:05 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 11:41:08 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 11:41:10 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 11:41:10 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 11:41:10 INFO  IRqaLogger:49 - Enter Serach keyword - printed
+2020-09-25 11:41:12 INFO  IRqaLogger:52 - Open Product Page as the result of the serch
+2020-09-25 11:41:12 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 11:41:12 INFO  IRqaLogger:62 - Global wait
+2020-09-25 11:41:13 INFO  IRqaLogger:67 - Quick view displayed
+2020-09-25 11:41:13 INFO  IRqaLogger:74 - Verified!!
+2020-09-25 11:41:14 INFO  IRqaLogger:78 - Closed Quick View
+2020-09-25 11:41:15 INFO  IRqaLogger:82 - Listview displayed
+2020-09-25 11:41:18 INFO  IRqaLogger:86 - Shoes Product details
+2020-09-25 11:41:18 INFO  IRqaLogger:92 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 11:41:18 INFO  IRqaLogger:99 - Close browser
+2020-09-25 11:41:18 INFO  IRqaLogger:104 - Post-condition 
+2020-09-25 11:41:18 INFO  IRqaLogger:108 - Erase the previous data on the report
+2020-09-25 11:41:19 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 11:52:03 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 11:52:07 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 11:52:07 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 11:52:09 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 11:52:11 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 11:52:11 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 11:52:11 INFO  IRqaLogger:49 - Enter Serach keyword - printed
+2020-09-25 11:52:12 INFO  IRqaLogger:52 - Open Product Page as the result of the serch
+2020-09-25 11:52:12 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 11:52:12 INFO  IRqaLogger:62 - Global wait
+2020-09-25 11:52:13 INFO  IRqaLogger:67 - Quick view displayed
+2020-09-25 11:52:13 INFO  IRqaLogger:74 - Verified!!
+2020-09-25 11:52:14 INFO  IRqaLogger:78 - Closed Quick View
+2020-09-25 11:52:14 INFO  IRqaLogger:82 - Listview displayed
+2020-09-25 11:52:16 INFO  IRqaLogger:86 - Shoes Product details
+2020-09-25 11:52:16 INFO  IRqaLogger:92 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 11:52:16 INFO  IRqaLogger:99 - Close browser
+2020-09-25 11:52:17 INFO  IRqaLogger:104 - Post-condition 
+2020-09-25 11:52:17 INFO  IRqaLogger:107 - Erase the previous data on the report
+2020-09-25 11:52:17 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 11:53:08 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 11:53:11 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 11:53:11 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 11:53:16 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 11:53:18 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 11:59:12 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 11:59:15 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 11:59:15 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 11:59:18 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 11:59:20 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 11:59:21 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 11:59:21 INFO  IRqaLogger:48 - Enter Serach keyword - printed
+2020-09-25 11:59:22 INFO  IRqaLogger:51 - Open Product Page as the result of the serch
+2020-09-25 11:59:22 INFO  IRqaLogger:56 - Scroll down
+2020-09-25 11:59:22 INFO  IRqaLogger:61 - Global wait
+2020-09-25 11:59:22 INFO  IRqaLogger:66 - Quick view displayed
+2020-09-25 11:59:22 INFO  IRqaLogger:73 - Verified!!
+2020-09-25 11:59:24 INFO  IRqaLogger:77 - Closed Quick View
+2020-09-25 11:59:24 INFO  IRqaLogger:81 - Listview displayed
+2020-09-25 11:59:25 INFO  IRqaLogger:85 - Shoes Product details
+2020-09-25 11:59:25 INFO  IRqaLogger:91 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 11:59:25 INFO  IRqaLogger:98 - Close browser
+2020-09-25 11:59:26 INFO  IRqaLogger:103 - Post-condition 
+2020-09-25 11:59:26 INFO  IRqaLogger:107 - Erase the previous data on the report
+2020-09-25 11:59:26 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 12:01:11 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 12:01:14 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 12:01:14 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 12:01:16 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 12:01:18 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 12:01:18 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 12:01:18 INFO  IRqaLogger:48 - Enter Serach keyword - printed
+2020-09-25 12:01:20 INFO  IRqaLogger:51 - Open Product Page as the result of the serch
+2020-09-25 12:01:20 INFO  IRqaLogger:56 - Scroll down
+2020-09-25 12:01:20 INFO  IRqaLogger:61 - Global wait
+2020-09-25 12:01:20 INFO  IRqaLogger:66 - Quick view displayed
+2020-09-25 12:01:20 INFO  IRqaLogger:73 - Verified!!
+2020-09-25 12:01:21 INFO  IRqaLogger:77 - Closed Quick View
+2020-09-25 12:01:21 INFO  IRqaLogger:81 - Listview displayed
+2020-09-25 12:01:23 INFO  IRqaLogger:85 - Shoes Product details
+2020-09-25 12:01:23 INFO  IRqaLogger:91 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 12:01:23 INFO  IRqaLogger:98 - Close browser
+2020-09-25 12:01:23 INFO  IRqaLogger:103 - Post-condition 
+2020-09-25 12:01:23 INFO  IRqaLogger:107 - Erase the previous data on the report
+2020-09-25 12:01:24 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 12:12:57 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 12:13:01 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 12:13:01 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 12:13:04 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 12:13:06 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 12:13:06 INFO  IRqaLogger:50 - Landing At HOME!!!
+2020-09-25 12:13:06 INFO  IRqaLogger:54 - Enter Serach keyword - printed
+2020-09-25 12:13:07 INFO  IRqaLogger:57 - Open Product Page as the result of the serch
+2020-09-25 12:13:07 INFO  IRqaLogger:62 - Scroll down
+2020-09-25 12:13:07 INFO  IRqaLogger:67 - Global wait
+2020-09-25 12:13:07 INFO  IRqaLogger:72 - Quick view displayed
+2020-09-25 12:13:07 INFO  IRqaLogger:79 - Verified!!
+2020-09-25 12:13:08 INFO  IRqaLogger:83 - Closed Quick View
+2020-09-25 12:13:09 INFO  IRqaLogger:87 - Listview displayed
+2020-09-25 12:13:09 INFO  IRqaLogger:91 - Shoes Product details
+2020-09-25 12:13:09 INFO  IRqaLogger:97 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 12:13:09 INFO  IRqaLogger:104 - Close browser
+2020-09-25 12:13:10 INFO  IRqaLogger:109 - Post-condition 
+2020-09-25 12:13:10 INFO  IRqaLogger:113 - Erase the previous data on the report
+2020-09-25 12:13:10 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 12:18:05 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 12:18:09 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 12:18:09 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 12:18:11 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 12:18:13 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 12:18:13 INFO  IRqaLogger:50 - Landing At HOME!!!
+2020-09-25 12:18:13 INFO  IRqaLogger:54 - Enter Serach keyword - printed
+2020-09-25 12:18:15 INFO  IRqaLogger:57 - Open Product Page as the result of the serch
+2020-09-25 12:18:15 INFO  IRqaLogger:62 - Scroll down
+2020-09-25 12:18:15 INFO  IRqaLogger:67 - Global wait
+2020-09-25 12:18:24 INFO  IRqaLogger:72 - Quick view displayed
+2020-09-25 12:18:24 INFO  IRqaLogger:79 - Verified!!
+2020-09-25 12:18:26 INFO  IRqaLogger:83 - Closed Quick View
+2020-09-25 12:18:26 INFO  IRqaLogger:87 - Listview displayed
+2020-09-25 12:18:28 INFO  IRqaLogger:91 - Shoes Product details
+2020-09-25 12:18:28 INFO  IRqaLogger:97 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 12:18:28 INFO  IRqaLogger:104 - Close browser
+2020-09-25 12:18:28 INFO  IRqaLogger:109 - Post-condition 
+2020-09-25 12:18:28 INFO  IRqaLogger:113 - Erase the previous data on the report
+2020-09-25 12:18:29 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 12:19:40 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 12:19:44 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 12:19:44 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 12:19:46 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 12:19:48 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 12:19:48 INFO  IRqaLogger:50 - Landing At HOME!!!
+2020-09-25 12:19:49 INFO  IRqaLogger:54 - Enter Serach keyword - printed
+2020-09-25 12:19:50 INFO  IRqaLogger:57 - Open Product Page as the result of the serch
+2020-09-25 12:19:50 INFO  IRqaLogger:62 - Scroll down
+2020-09-25 12:19:50 INFO  IRqaLogger:67 - Global wait
+2020-09-25 12:19:50 INFO  IRqaLogger:72 - Quick view displayed
+2020-09-25 12:19:50 INFO  IRqaLogger:79 - Verified!!
+2020-09-25 12:19:52 INFO  IRqaLogger:83 - Closed Quick View
+2020-09-25 12:19:52 INFO  IRqaLogger:87 - Listview displayed
+2020-09-25 12:19:54 INFO  IRqaLogger:91 - Shoes Product details
+2020-09-25 12:19:54 INFO  IRqaLogger:97 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 12:19:54 INFO  IRqaLogger:104 - Close browser
+2020-09-25 12:19:54 INFO  IRqaLogger:109 - Post-condition 
+2020-09-25 12:19:54 INFO  IRqaLogger:113 - Erase the previous data on the report
+2020-09-25 12:19:55 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 12:33:48 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 12:33:52 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 12:33:52 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 12:33:54 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 12:33:56 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 12:33:57 INFO  IRqaLogger:50 - Landing At HOME!!!
+2020-09-25 12:33:57 INFO  IRqaLogger:54 - Enter Serach keyword - printed
+2020-09-25 12:33:57 INFO  IRqaLogger:57 - Open Product Page as the result of the serch
+2020-09-25 12:33:57 INFO  IRqaLogger:62 - Scroll down
+2020-09-25 12:33:57 INFO  IRqaLogger:67 - Global wait
+2020-09-25 12:34:08 INFO  IRqaLogger:104 - Close browser
+2020-09-25 12:34:09 INFO  IRqaLogger:109 - Post-condition 
+2020-09-25 12:34:09 INFO  IRqaLogger:113 - Erase the previous data on the report
+2020-09-25 12:34:09 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 12:40:13 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 12:40:17 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 12:40:17 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 12:40:19 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 12:40:21 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 12:40:21 INFO  IRqaLogger:50 - Landing At HOME!!!
+2020-09-25 12:40:21 INFO  IRqaLogger:54 - Enter Serach keyword - printed
+2020-09-25 12:40:22 INFO  IRqaLogger:57 - Open Product Page as the result of the serch
+2020-09-25 12:40:22 INFO  IRqaLogger:62 - Scroll down
+2020-09-25 12:40:22 INFO  IRqaLogger:67 - Global wait
+2020-09-25 12:40:22 INFO  IRqaLogger:72 - Quick view displayed
+2020-09-25 12:40:22 INFO  IRqaLogger:79 - Verified!!
+2020-09-25 12:40:23 INFO  IRqaLogger:83 - Closed Quick View
+2020-09-25 12:40:24 INFO  IRqaLogger:87 - Listview displayed
+2020-09-25 12:40:25 INFO  IRqaLogger:91 - Shoes Product details
+2020-09-25 12:40:25 INFO  IRqaLogger:97 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 12:40:25 INFO  IRqaLogger:104 - Close browser
+2020-09-25 12:40:27 INFO  IRqaLogger:109 - Post-condition 
+2020-09-25 12:40:27 INFO  IRqaLogger:111 - Erase the previous data on the report
+2020-09-25 12:40:27 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 12:44:05 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 12:44:09 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 12:44:09 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 12:44:13 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 12:44:15 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 12:44:15 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 12:44:16 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 12:44:16 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 12:44:16 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 12:44:16 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 12:44:16 INFO  IRqaLogger:69 - Move the Right Slider to Left to filter
+2020-09-25 12:44:17 INFO  IRqaLogger:73 - Verify through the movement checking
+2020-09-25 12:44:17 INFO  IRqaLogger:83 - Close browser
+2020-09-25 12:44:17 INFO  IRqaLogger:88 - Post-condition 
+2020-09-25 12:44:17 INFO  IRqaLogger:92 - Erase the previous data on the report
+2020-09-25 12:44:18 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 12:47:42 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 12:47:46 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 12:47:46 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 12:47:53 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 12:47:55 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 12:47:55 INFO  IRqaLogger:49 - Landing At HOME!!!
+2020-09-25 12:47:59 INFO  IRqaLogger:54 - Clicked Woman tab
+2020-09-25 12:47:59 INFO  IRqaLogger:57 - Ready to filter from Category
+2020-09-25 12:47:59 INFO  IRqaLogger:61 - Chose Size
+2020-09-25 12:47:59 INFO  IRqaLogger:65 - Scroll down
+2020-09-25 12:47:59 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 12:48:00 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 12:48:00 INFO  IRqaLogger:84 - Close browser
+2020-09-25 12:48:00 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 12:48:00 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 12:48:00 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 12:49:28 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 12:49:32 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 12:49:32 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 12:49:35 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 12:49:38 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 12:49:38 INFO  IRqaLogger:49 - Landing At HOME!!!
+2020-09-25 12:49:39 INFO  IRqaLogger:54 - Clicked Woman tab
+2020-09-25 12:49:39 INFO  IRqaLogger:57 - Ready to filter from Category
+2020-09-25 12:49:39 INFO  IRqaLogger:61 - Chose Size
+2020-09-25 12:49:39 INFO  IRqaLogger:65 - Scroll down
+2020-09-25 12:49:43 INFO  IRqaLogger:71 - Move the Right Slider to Left to filter
+2020-09-25 12:49:44 INFO  IRqaLogger:75 - Verify through the movement checking
+2020-09-25 12:49:46 INFO  IRqaLogger:85 - Close browser
+2020-09-25 12:49:46 INFO  IRqaLogger:90 - Post-condition 
+2020-09-25 12:49:46 INFO  IRqaLogger:94 - Erase the previous data on the report
+2020-09-25 12:49:46 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 12:53:25 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 12:53:29 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 12:53:29 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 12:53:32 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 12:53:34 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 12:53:34 INFO  IRqaLogger:51 - Landing At HOME!!!
+2020-09-25 12:53:34 INFO  IRqaLogger:55 - Enter Serach keyword - printed
+2020-09-25 12:53:35 INFO  IRqaLogger:58 - Open Product Page as the result of the serch
+2020-09-25 12:53:35 INFO  IRqaLogger:63 - Scroll down
+2020-09-25 12:53:35 INFO  IRqaLogger:68 - Global wait
+2020-09-25 12:53:35 INFO  IRqaLogger:73 - Quick view displayed
+2020-09-25 12:53:35 INFO  IRqaLogger:80 - Verified!!
+2020-09-25 12:53:38 INFO  IRqaLogger:84 - Closed Quick View
+2020-09-25 12:53:39 INFO  IRqaLogger:88 - Listview displayed
+2020-09-25 12:53:40 INFO  IRqaLogger:92 - Shoes Product details
+2020-09-25 12:53:40 INFO  IRqaLogger:98 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 12:53:40 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 12:53:43 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 12:53:43 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 12:53:43 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 12:53:43 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 12:53:47 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 12:53:48 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 12:53:50 INFO  IRqaLogger:105 - Close browser
+2020-09-25 12:53:50 INFO  IRqaLogger:110 - Post-condition 
+2020-09-25 12:53:50 INFO  IRqaLogger:112 - Erase the previous data on the report
+2020-09-25 12:53:50 INFO  IRqaLogger:84 - Close browser
+2020-09-25 12:53:50 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 12:53:50 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 12:53:50 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 12:53:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2020-09-25 12:53:50 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2020-09-25 12:53:50 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2020-09-25 12:53:51 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2020-09-25 12:53:51 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2020-09-25 12:53:51 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2020-09-25 12:53:51 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2020-09-25 12:53:51 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2020-09-25 12:53:51 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2020-09-25 12:53:51 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2020-09-25 12:53:51 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2020-09-25 12:53:51 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2020-09-25 12:53:51 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2020-09-25 12:53:51 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-25 12:53:51 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2020-09-25 12:53:51 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2020-09-25 12:53:51 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2020-09-25 12:53:51 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2020-09-25 12:53:51 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2020-09-25 12:53:51 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2020-09-25 12:53:51 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2020-09-25 12:53:51 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2020-09-25 12:53:51 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2020-09-25 12:53:51 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2020-09-25 12:53:51 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2020-09-25 12:53:51 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:01:54 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:01:58 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:01:58 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:02:01 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:02:03 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:02:03 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 13:02:05 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 13:02:05 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 13:02:05 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 13:02:05 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 13:02:09 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 13:02:10 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 13:02:12 INFO  IRqaLogger:84 - Close browser
+2020-09-25 13:02:12 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 13:02:12 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 13:02:13 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:02:48 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:02:52 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:02:52 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:02:54 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:02:56 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:02:56 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 13:02:57 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 13:02:57 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 13:02:57 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 13:02:57 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 13:03:01 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 13:03:01 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 13:03:03 INFO  IRqaLogger:84 - Close browser
+2020-09-25 13:03:04 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 13:03:04 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 13:03:04 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:05:21 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:05:25 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:05:25 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:05:28 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:05:30 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:05:30 INFO  IRqaLogger:43 - Landing At HOME!!!
+2020-09-25 13:05:32 INFO  IRqaLogger:46 - Clicked Signin
+2020-09-25 13:05:32 INFO  IRqaLogger:49 - Open Login Page!!!
+2020-09-25 13:05:32 INFO  IRqaLogger:54 - Enter Email and submit to register
+2020-09-25 13:05:32 INFO  IRqaLogger:57 - Open CreateAccount Page!!!
+2020-09-25 13:05:32 INFO  IRqaLogger:61 - Filled out the registration form
+2020-09-25 13:05:46 INFO  IRqaLogger:79 - Open MyAccount Page!!!
+2020-09-25 13:05:46 INFO  IRqaLogger:98 - Close browser
+2020-09-25 13:05:47 INFO  IRqaLogger:103 - Post-condition 
+2020-09-25 13:05:47 INFO  IRqaLogger:107 - Erase the previous data on the report
+2020-09-25 13:05:47 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 13:05:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-09-25 13:05:47 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-09-25 13:05:47 DEBUG cache:45 - Loading template for "Extent.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-09-25 13:05:47 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:07:03 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:07:06 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:07:06 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:07:09 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:07:11 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:07:11 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 13:07:12 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 13:07:12 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 13:07:12 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 13:07:12 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 13:07:16 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 13:07:17 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 13:07:19 INFO  IRqaLogger:84 - Close browser
+2020-09-25 13:07:19 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 13:07:19 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 13:07:19 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:09:06 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:09:09 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:09:09 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:09:11 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:09:13 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:09:14 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 13:09:15 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 13:09:15 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 13:09:15 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 13:09:15 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 13:09:19 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 13:09:19 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 13:09:21 INFO  IRqaLogger:84 - Close browser
+2020-09-25 13:09:22 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 13:09:22 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 13:09:22 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:31:17 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:31:20 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:31:20 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:31:23 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:31:25 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:31:25 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 13:31:27 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 13:31:27 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 13:31:27 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 13:31:27 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 13:31:31 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 13:31:31 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 13:31:33 INFO  IRqaLogger:84 - Close browser
+2020-09-25 13:31:34 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 13:31:34 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 13:31:34 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:32:14 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:32:18 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:32:18 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:32:20 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:32:22 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:32:22 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 13:32:23 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 13:32:23 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 13:32:23 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 13:32:23 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 13:32:27 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 13:32:28 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 13:32:30 INFO  IRqaLogger:84 - Close browser
+2020-09-25 13:32:30 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 13:32:30 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 13:32:31 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:33:17 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:33:21 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:33:21 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:33:22 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:33:25 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:33:25 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 13:33:26 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 13:33:26 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 13:33:26 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 13:33:26 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 13:33:30 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 13:33:30 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 13:33:33 INFO  IRqaLogger:84 - Close browser
+2020-09-25 13:33:33 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 13:33:33 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 13:33:33 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:35:23 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:35:26 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:35:26 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:35:29 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:35:31 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:35:31 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 13:35:32 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 13:35:32 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 13:35:32 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 13:35:32 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 13:35:36 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 13:35:37 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 13:35:39 INFO  IRqaLogger:84 - Close browser
+2020-09-25 13:35:39 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 13:35:39 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 13:35:40 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:44:46 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:44:49 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:44:49 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:44:52 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:44:54 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:44:54 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 13:44:55 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 13:44:55 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 13:44:55 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 13:44:55 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 13:44:59 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 13:45:00 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 13:45:02 INFO  IRqaLogger:84 - Close browser
+2020-09-25 13:45:02 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 13:45:02 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 13:45:03 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:49:25 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:49:29 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:49:29 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:49:33 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:49:35 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:49:35 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 13:49:37 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 13:49:37 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 13:49:37 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 13:49:37 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 13:49:41 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 13:49:41 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 13:49:44 INFO  IRqaLogger:84 - Close browser
+2020-09-25 13:49:44 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 13:49:44 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 13:49:44 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:50:23 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:50:27 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:50:27 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:50:29 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:50:31 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:50:32 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 13:50:33 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 13:50:33 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 13:50:33 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 13:50:33 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 13:50:37 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 13:50:38 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 13:50:40 INFO  IRqaLogger:84 - Close browser
+2020-09-25 13:50:41 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 13:50:41 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 13:50:41 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:53:46 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:53:49 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:53:49 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:53:53 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:53:55 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:53:55 INFO  IRqaLogger:51 - Landing At HOME!!!
+2020-09-25 13:53:55 INFO  IRqaLogger:55 - Enter Serach keyword - printed
+2020-09-25 13:53:56 INFO  IRqaLogger:58 - Open Product Page as the result of the serch
+2020-09-25 13:53:56 INFO  IRqaLogger:63 - Scroll down
+2020-09-25 13:53:56 INFO  IRqaLogger:68 - Global wait
+2020-09-25 13:53:56 INFO  IRqaLogger:73 - Quick view displayed
+2020-09-25 13:53:56 INFO  IRqaLogger:80 - Verified!!
+2020-09-25 13:53:58 INFO  IRqaLogger:84 - Closed Quick View
+2020-09-25 13:53:58 INFO  IRqaLogger:88 - Listview displayed
+2020-09-25 13:53:59 INFO  IRqaLogger:92 - Shoes Product details
+2020-09-25 13:54:00 INFO  IRqaLogger:98 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 13:54:00 INFO  IRqaLogger:48 - Landing At HOME!!!
+2020-09-25 13:54:01 INFO  IRqaLogger:53 - Clicked Woman tab
+2020-09-25 13:54:01 INFO  IRqaLogger:56 - Ready to filter from Category
+2020-09-25 13:54:01 INFO  IRqaLogger:60 - Chose Size
+2020-09-25 13:54:01 INFO  IRqaLogger:64 - Scroll down
+2020-09-25 13:54:05 INFO  IRqaLogger:70 - Move the Right Slider to Left to filter
+2020-09-25 13:54:06 INFO  IRqaLogger:74 - Verify through the movement checking
+2020-09-25 13:54:08 INFO  IRqaLogger:105 - Close browser
+2020-09-25 13:54:08 INFO  IRqaLogger:110 - Post-condition 
+2020-09-25 13:54:08 INFO  IRqaLogger:112 - Erase the previous data on the report
+2020-09-25 13:54:08 INFO  IRqaLogger:84 - Close browser
+2020-09-25 13:54:08 INFO  IRqaLogger:89 - Post-condition 
+2020-09-25 13:54:08 INFO  IRqaLogger:93 - Erase the previous data on the report
+2020-09-25 13:54:08 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2020-09-25 13:54:08 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2020-09-25 13:54:08 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2020-09-25 13:54:08 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2020-09-25 13:54:08 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2020-09-25 13:54:08 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2020-09-25 13:54:08 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2020-09-25 13:54:08 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2020-09-25 13:54:08 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2020-09-25 13:54:08 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2020-09-25 13:54:08 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2020-09-25 13:54:08 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2020-09-25 13:54:08 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-25 13:54:08 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2020-09-25 13:54:08 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2020-09-25 13:54:08 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2020-09-25 13:54:08 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2020-09-25 13:54:08 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2020-09-25 13:54:08 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2020-09-25 13:54:08 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2020-09-25 13:54:08 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2020-09-25 13:54:08 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2020-09-25 13:54:08 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2020-09-25 13:54:08 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2020-09-25 13:54:08 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 13:57:25 DEBUG IRqaLogger:44 - loading the config property file
+2020-09-25 13:57:28 INFO  IRqaLogger:51 - Open Chrome Browser
+2020-09-25 13:57:28 INFO  IRqaLogger:66 - Get Website URL
+2020-09-25 13:57:31 INFO  IRqaLogger:68 - Maximize the Browser
+2020-09-25 13:57:33 INFO  IRqaLogger:70 - Global Wait
+2020-09-25 13:57:33 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 13:57:35 INFO  IRqaLogger:49 - Clicked Woman tab
+2020-09-25 13:57:35 INFO  IRqaLogger:52 - Ready to filter from Category
+2020-09-25 13:57:35 INFO  IRqaLogger:56 - Chose Size
+2020-09-25 13:57:35 INFO  IRqaLogger:60 - Scroll down
+2020-09-25 13:57:39 INFO  IRqaLogger:66 - Move the Right Slider to Left to filter
+2020-09-25 13:57:40 INFO  IRqaLogger:70 - Verify through the movement checking
+2020-09-25 13:57:42 INFO  IRqaLogger:51 - Landing At HOME!!!
+2020-09-25 13:57:42 INFO  IRqaLogger:55 - Enter Serach keyword - printed
+2020-09-25 13:57:43 INFO  IRqaLogger:58 - Open Product Page as the result of the serch
+2020-09-25 13:57:43 INFO  IRqaLogger:63 - Scroll down
+2020-09-25 13:57:43 INFO  IRqaLogger:68 - Global wait
+2020-09-25 13:57:43 INFO  IRqaLogger:73 - Quick view displayed
+2020-09-25 13:57:43 INFO  IRqaLogger:80 - Verified!!
+2020-09-25 13:57:45 INFO  IRqaLogger:84 - Closed Quick View
+2020-09-25 13:57:45 INFO  IRqaLogger:88 - Listview displayed
+2020-09-25 13:57:48 INFO  IRqaLogger:92 - Shoes Product details
+2020-09-25 13:57:48 INFO  IRqaLogger:98 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 13:57:48 INFO  IRqaLogger:105 - Close browser
+2020-09-25 13:57:49 INFO  IRqaLogger:110 - Post-condition 
+2020-09-25 13:57:49 INFO  IRqaLogger:112 - Erase the previous data on the report
+2020-09-25 13:57:49 INFO  IRqaLogger:80 - Close browser
+2020-09-25 13:57:49 INFO  IRqaLogger:85 - Post-condition 
+2020-09-25 13:57:49 INFO  IRqaLogger:89 - Erase the previous data on the report
+2020-09-25 13:57:49 INFO  IRqaLogger:78 - Close the Browser
+2020-09-25 14:03:21 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:03:25 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:03:25 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:03:27 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:03:29 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:03:29 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 14:03:31 INFO  IRqaLogger:49 - Clicked Woman tab
+2020-09-25 14:03:31 INFO  IRqaLogger:52 - Ready to filter from Category
+2020-09-25 14:03:31 INFO  IRqaLogger:56 - Chose Size
+2020-09-25 14:03:31 INFO  IRqaLogger:60 - Scroll down
+2020-09-25 14:03:35 INFO  IRqaLogger:66 - Move the Right Slider to Left to filter
+2020-09-25 14:03:35 INFO  IRqaLogger:70 - Verify through the movement checking
+2020-09-25 14:03:37 INFO  IRqaLogger:51 - Landing At HOME!!!
+2020-09-25 14:03:37 INFO  IRqaLogger:55 - Enter Serach keyword - printed
+2020-09-25 14:03:39 INFO  IRqaLogger:58 - Open Product Page as the result of the serch
+2020-09-25 14:03:39 INFO  IRqaLogger:63 - Scroll down
+2020-09-25 14:03:39 INFO  IRqaLogger:68 - Global wait
+2020-09-25 14:03:49 INFO  IRqaLogger:105 - Close browser
+2020-09-25 14:03:50 INFO  IRqaLogger:110 - Post-condition 
+2020-09-25 14:03:50 INFO  IRqaLogger:112 - Erase the previous data on the report
+2020-09-25 14:03:50 INFO  IRqaLogger:80 - Close browser
+2020-09-25 14:03:50 INFO  IRqaLogger:85 - Post-condition 
+2020-09-25 14:03:50 INFO  IRqaLogger:89 - Erase the previous data on the report
+2020-09-25 14:03:50 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 14:09:06 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:09:10 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:09:10 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:09:12 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:09:14 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:09:14 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 14:09:16 INFO  IRqaLogger:49 - Clicked Woman tab
+2020-09-25 14:09:16 INFO  IRqaLogger:52 - Ready to filter from Category
+2020-09-25 14:09:16 INFO  IRqaLogger:56 - Chose Size
+2020-09-25 14:09:16 INFO  IRqaLogger:60 - Scroll down
+2020-09-25 14:09:20 INFO  IRqaLogger:66 - Move the Right Slider to Left to filter
+2020-09-25 14:09:21 INFO  IRqaLogger:70 - Verify through the movement checking
+2020-09-25 14:09:23 INFO  IRqaLogger:51 - Landing At HOME!!!
+2020-09-25 14:09:23 INFO  IRqaLogger:55 - Enter Serach keyword - printed
+2020-09-25 14:09:24 INFO  IRqaLogger:58 - Open Product Page as the result of the serch
+2020-09-25 14:09:24 INFO  IRqaLogger:63 - Scroll down
+2020-09-25 14:09:24 INFO  IRqaLogger:68 - Global wait
+2020-09-25 14:09:26 INFO  IRqaLogger:73 - Quick view displayed
+2020-09-25 14:09:26 INFO  IRqaLogger:80 - Verified!!
+2020-09-25 14:09:28 INFO  IRqaLogger:84 - Closed Quick View
+2020-09-25 14:09:28 INFO  IRqaLogger:88 - Listview displayed
+2020-09-25 14:09:29 INFO  IRqaLogger:92 - Shoes Product details
+2020-09-25 14:09:29 INFO  IRqaLogger:98 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 14:09:29 INFO  IRqaLogger:105 - Close browser
+2020-09-25 14:09:30 INFO  IRqaLogger:110 - Post-condition 
+2020-09-25 14:09:30 INFO  IRqaLogger:112 - Erase the previous data on the report
+2020-09-25 14:09:30 INFO  IRqaLogger:80 - Close browser
+2020-09-25 14:09:30 INFO  IRqaLogger:85 - Post-condition 
+2020-09-25 14:09:30 INFO  IRqaLogger:89 - Erase the previous data on the report
+2020-09-25 14:09:30 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 14:27:36 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:27:40 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:27:40 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:27:42 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:27:44 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:27:44 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 14:27:47 INFO  IRqaLogger:49 - Clicked Woman tab
+2020-09-25 14:27:47 INFO  IRqaLogger:52 - Ready to filter from Category
+2020-09-25 14:27:47 INFO  IRqaLogger:56 - Chose Size
+2020-09-25 14:27:47 INFO  IRqaLogger:60 - Scroll down
+2020-09-25 14:27:51 INFO  IRqaLogger:66 - Move the Right Slider to Left to filter
+2020-09-25 14:27:51 INFO  IRqaLogger:70 - Verify through the movement checking
+2020-09-25 14:27:54 INFO  IRqaLogger:51 - Landing At HOME!!!
+2020-09-25 14:27:54 INFO  IRqaLogger:55 - Enter Serach keyword - printed
+2020-09-25 14:27:54 INFO  IRqaLogger:58 - Open Product Page as the result of the serch
+2020-09-25 14:27:54 INFO  IRqaLogger:63 - Scroll down
+2020-09-25 14:27:55 INFO  IRqaLogger:68 - Global wait
+2020-09-25 14:27:55 INFO  IRqaLogger:73 - Quick view displayed
+2020-09-25 14:27:55 INFO  IRqaLogger:80 - Verified!!
+2020-09-25 14:27:57 INFO  IRqaLogger:84 - Closed Quick View
+2020-09-25 14:27:57 INFO  IRqaLogger:88 - Listview displayed
+2020-09-25 14:27:58 INFO  IRqaLogger:92 - Shoes Product details
+2020-09-25 14:27:58 INFO  IRqaLogger:98 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 14:27:58 INFO  IRqaLogger:105 - Close browser
+2020-09-25 14:27:59 INFO  IRqaLogger:110 - Post-condition 
+2020-09-25 14:27:59 INFO  IRqaLogger:112 - Erase the previous data on the report
+2020-09-25 14:27:59 INFO  IRqaLogger:80 - Close browser
+2020-09-25 14:27:59 INFO  IRqaLogger:85 - Post-condition 
+2020-09-25 14:27:59 INFO  IRqaLogger:89 - Erase the previous data on the report
+2020-09-25 14:27:59 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 14:28:47 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:28:51 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:28:51 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:28:54 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:28:56 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:28:56 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 14:28:59 INFO  IRqaLogger:49 - Clicked Woman tab
+2020-09-25 14:28:59 INFO  IRqaLogger:52 - Ready to filter from Category
+2020-09-25 14:28:59 INFO  IRqaLogger:56 - Chose Size
+2020-09-25 14:28:59 INFO  IRqaLogger:60 - Scroll down
+2020-09-25 14:29:03 INFO  IRqaLogger:66 - Move the Right Slider to Left to filter
+2020-09-25 14:29:03 INFO  IRqaLogger:70 - Verify through the movement checking
+2020-09-25 14:29:05 INFO  IRqaLogger:51 - Landing At HOME!!!
+2020-09-25 14:29:05 INFO  IRqaLogger:55 - Enter Serach keyword - printed
+2020-09-25 14:29:07 INFO  IRqaLogger:58 - Open Product Page as the result of the serch
+2020-09-25 14:29:07 INFO  IRqaLogger:63 - Scroll down
+2020-09-25 14:29:07 INFO  IRqaLogger:68 - Global wait
+2020-09-25 14:29:07 INFO  IRqaLogger:73 - Quick view displayed
+2020-09-25 14:29:07 INFO  IRqaLogger:80 - Verified!!
+2020-09-25 14:29:08 INFO  IRqaLogger:84 - Closed Quick View
+2020-09-25 14:29:09 INFO  IRqaLogger:88 - Listview displayed
+2020-09-25 14:29:10 INFO  IRqaLogger:92 - Shoes Product details
+2020-09-25 14:29:10 INFO  IRqaLogger:98 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 14:29:10 INFO  IRqaLogger:105 - Close browser
+2020-09-25 14:29:11 INFO  IRqaLogger:110 - Post-condition 
+2020-09-25 14:29:11 INFO  IRqaLogger:112 - Erase the previous data on the report
+2020-09-25 14:29:11 INFO  IRqaLogger:80 - Close browser
+2020-09-25 14:29:11 INFO  IRqaLogger:85 - Post-condition 
+2020-09-25 14:29:11 INFO  IRqaLogger:89 - Erase the previous data on the report
+2020-09-25 14:29:11 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 14:31:31 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:31:35 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:31:35 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:31:38 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:31:40 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:31:40 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 14:31:42 INFO  IRqaLogger:49 - Clicked Woman tab
+2020-09-25 14:31:42 INFO  IRqaLogger:52 - Ready to filter from Category
+2020-09-25 14:31:42 INFO  IRqaLogger:56 - Chose Size
+2020-09-25 14:31:42 INFO  IRqaLogger:60 - Scroll down
+2020-09-25 14:31:46 INFO  IRqaLogger:66 - Move the Right Slider to Left to filter
+2020-09-25 14:31:46 INFO  IRqaLogger:70 - Verify through the movement checking
+2020-09-25 14:31:48 INFO  IRqaLogger:51 - Landing At HOME!!!
+2020-09-25 14:31:48 INFO  IRqaLogger:55 - Enter Serach keyword - printed
+2020-09-25 14:31:49 INFO  IRqaLogger:58 - Open Product Page as the result of the serch
+2020-09-25 14:31:49 INFO  IRqaLogger:63 - Scroll down
+2020-09-25 14:31:49 INFO  IRqaLogger:68 - Global wait
+2020-09-25 14:31:59 INFO  IRqaLogger:105 - Close browser
+2020-09-25 14:32:00 INFO  IRqaLogger:110 - Post-condition 
+2020-09-25 14:32:00 INFO  IRqaLogger:112 - Erase the previous data on the report
+2020-09-25 14:32:00 INFO  IRqaLogger:80 - Close browser
+2020-09-25 14:32:00 INFO  IRqaLogger:85 - Post-condition 
+2020-09-25 14:32:00 INFO  IRqaLogger:89 - Erase the previous data on the report
+2020-09-25 14:32:00 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 14:33:33 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:33:37 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:33:37 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:33:40 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:33:42 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:33:42 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 14:33:46 INFO  IRqaLogger:49 - Clicked Woman tab
+2020-09-25 14:33:46 INFO  IRqaLogger:52 - Ready to filter from Category
+2020-09-25 14:33:46 INFO  IRqaLogger:56 - Chose Size
+2020-09-25 14:33:46 INFO  IRqaLogger:60 - Scroll down
+2020-09-25 14:33:50 INFO  IRqaLogger:66 - Move the Right Slider to Left to filter
+2020-09-25 14:33:50 INFO  IRqaLogger:70 - Verify through the movement checking
+2020-09-25 14:33:52 INFO  IRqaLogger:51 - Landing At HOME!!!
+2020-09-25 14:33:52 INFO  IRqaLogger:55 - Enter Serach keyword - printed
+2020-09-25 14:33:53 INFO  IRqaLogger:58 - Open Product Page as the result of the serch
+2020-09-25 14:33:53 INFO  IRqaLogger:63 - Scroll down
+2020-09-25 14:33:53 INFO  IRqaLogger:68 - Global wait
+2020-09-25 14:33:54 INFO  IRqaLogger:73 - Quick view displayed
+2020-09-25 14:33:54 INFO  IRqaLogger:80 - Verified!!
+2020-09-25 14:33:55 INFO  IRqaLogger:84 - Closed Quick View
+2020-09-25 14:33:56 INFO  IRqaLogger:88 - Listview displayed
+2020-09-25 14:33:57 INFO  IRqaLogger:92 - Shoes Product details
+2020-09-25 14:33:57 INFO  IRqaLogger:98 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 14:33:57 INFO  IRqaLogger:105 - Close browser
+2020-09-25 14:33:58 INFO  IRqaLogger:110 - Post-condition 
+2020-09-25 14:33:58 INFO  IRqaLogger:112 - Erase the previous data on the report
+2020-09-25 14:33:58 INFO  IRqaLogger:80 - Close browser
+2020-09-25 14:33:58 INFO  IRqaLogger:85 - Post-condition 
+2020-09-25 14:33:58 INFO  IRqaLogger:89 - Erase the previous data on the report
+2020-09-25 14:33:58 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 14:34:55 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:34:59 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:34:59 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:35:01 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:35:03 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:35:03 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 14:35:05 INFO  IRqaLogger:49 - Clicked Woman tab
+2020-09-25 14:35:05 INFO  IRqaLogger:52 - Ready to filter from Category
+2020-09-25 14:35:05 INFO  IRqaLogger:56 - Chose Size
+2020-09-25 14:35:05 INFO  IRqaLogger:60 - Scroll down
+2020-09-25 14:35:09 INFO  IRqaLogger:66 - Move the Right Slider to Left to filter
+2020-09-25 14:35:10 INFO  IRqaLogger:70 - Verify through the movement checking
+2020-09-25 14:35:12 INFO  IRqaLogger:51 - Landing At HOME!!!
+2020-09-25 14:35:12 INFO  IRqaLogger:55 - Enter Serach keyword - printed
+2020-09-25 14:35:13 INFO  IRqaLogger:58 - Open Product Page as the result of the serch
+2020-09-25 14:35:13 INFO  IRqaLogger:63 - Scroll down
+2020-09-25 14:35:13 INFO  IRqaLogger:68 - Global wait
+2020-09-25 14:35:23 INFO  IRqaLogger:105 - Close browser
+2020-09-25 14:35:24 INFO  IRqaLogger:110 - Post-condition 
+2020-09-25 14:35:24 INFO  IRqaLogger:112 - Erase the previous data on the report
+2020-09-25 14:35:24 INFO  IRqaLogger:80 - Close browser
+2020-09-25 14:35:24 INFO  IRqaLogger:85 - Post-condition 
+2020-09-25 14:35:24 INFO  IRqaLogger:89 - Erase the previous data on the report
+2020-09-25 14:35:24 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 14:36:35 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:36:40 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:36:40 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:36:42 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:36:44 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:36:44 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 14:36:45 INFO  IRqaLogger:49 - Clicked Woman tab
+2020-09-25 14:36:45 INFO  IRqaLogger:52 - Ready to filter from Category
+2020-09-25 14:36:45 INFO  IRqaLogger:56 - Chose Size
+2020-09-25 14:36:45 INFO  IRqaLogger:60 - Scroll down
+2020-09-25 14:36:49 INFO  IRqaLogger:66 - Move the Right Slider to Left to filter
+2020-09-25 14:36:50 INFO  IRqaLogger:70 - Verify through the movement checking
+2020-09-25 14:36:52 INFO  IRqaLogger:51 - Landing At HOME!!!
+2020-09-25 14:36:52 INFO  IRqaLogger:55 - Enter Serach keyword - printed
+2020-09-25 14:36:53 INFO  IRqaLogger:58 - Open Product Page as the result of the serch
+2020-09-25 14:36:53 INFO  IRqaLogger:63 - Scroll down
+2020-09-25 14:36:53 INFO  IRqaLogger:68 - Global wait
+2020-09-25 14:36:53 INFO  IRqaLogger:73 - Quick view displayed
+2020-09-25 14:36:53 INFO  IRqaLogger:80 - Verified!!
+2020-09-25 14:36:54 INFO  IRqaLogger:84 - Closed Quick View
+2020-09-25 14:36:55 INFO  IRqaLogger:88 - Listview displayed
+2020-09-25 14:36:56 INFO  IRqaLogger:92 - Shoes Product details
+2020-09-25 14:36:56 INFO  IRqaLogger:98 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 14:36:56 INFO  IRqaLogger:105 - Close browser
+2020-09-25 14:36:57 INFO  IRqaLogger:110 - Post-condition 
+2020-09-25 14:36:57 INFO  IRqaLogger:112 - Erase the previous data on the report
+2020-09-25 14:36:57 INFO  IRqaLogger:80 - Close browser
+2020-09-25 14:36:57 INFO  IRqaLogger:85 - Post-condition 
+2020-09-25 14:36:57 INFO  IRqaLogger:89 - Erase the previous data on the report
+2020-09-25 14:36:57 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 14:43:27 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:43:31 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:43:31 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:43:33 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:43:35 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:43:35 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 14:43:35 INFO  IRqaLogger:48 - Enter Serach keyword - printed
+2020-09-25 14:43:37 INFO  IRqaLogger:51 - Open Product Page as the result of the serch
+2020-09-25 14:43:37 INFO  IRqaLogger:56 - Scroll down
+2020-09-25 14:43:37 INFO  IRqaLogger:61 - Global wait
+2020-09-25 14:43:37 INFO  IRqaLogger:66 - Quick view displayed
+2020-09-25 14:43:37 INFO  IRqaLogger:73 - Verified!!
+2020-09-25 14:43:38 INFO  IRqaLogger:77 - Closed Quick View
+2020-09-25 14:43:38 INFO  IRqaLogger:81 - Listview displayed
+2020-09-25 14:43:40 INFO  IRqaLogger:85 - Shoes Product details
+2020-09-25 14:43:40 INFO  IRqaLogger:91 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 14:43:40 INFO  IRqaLogger:98 - Close browser
+2020-09-25 14:43:41 INFO  IRqaLogger:103 - Post-condition 
+2020-09-25 14:43:41 INFO  IRqaLogger:105 - Erase the previous data on the report
+2020-09-25 14:43:41 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 14:44:03 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:44:07 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:44:07 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:44:09 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:44:11 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:44:11 INFO  IRqaLogger:41 - Landing At HOME!!!
+2020-09-25 14:44:13 INFO  IRqaLogger:46 - Clicked Woman tab
+2020-09-25 14:44:13 INFO  IRqaLogger:49 - Ready to filter from Category
+2020-09-25 14:44:13 INFO  IRqaLogger:53 - Chose Size
+2020-09-25 14:44:13 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 14:44:17 INFO  IRqaLogger:63 - Move the Right Slider to Left to filter
+2020-09-25 14:44:17 INFO  IRqaLogger:67 - Verify through the movement checking
+2020-09-25 14:44:17 INFO  IRqaLogger:77 - Close browser
+2020-09-25 14:44:18 INFO  IRqaLogger:82 - Post-condition 
+2020-09-25 14:44:18 INFO  IRqaLogger:86 - Erase the previous data on the report
+2020-09-25 14:44:18 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 14:45:16 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:45:19 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:45:19 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:45:22 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:45:24 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:45:25 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 14:45:25 INFO  IRqaLogger:48 - Enter Serach keyword - printed
+2020-09-25 14:45:26 INFO  IRqaLogger:51 - Open Product Page as the result of the serch
+2020-09-25 14:45:26 INFO  IRqaLogger:56 - Scroll down
+2020-09-25 14:45:26 INFO  IRqaLogger:61 - Global wait
+2020-09-25 14:45:33 INFO  IRqaLogger:66 - Quick view displayed
+2020-09-25 14:45:33 INFO  IRqaLogger:73 - Verified!!
+2020-09-25 14:45:34 INFO  IRqaLogger:77 - Closed Quick View
+2020-09-25 14:45:35 INFO  IRqaLogger:81 - Listview displayed
+2020-09-25 14:45:35 INFO  IRqaLogger:85 - Shoes Product details
+2020-09-25 14:45:35 INFO  IRqaLogger:91 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 14:45:35 INFO  IRqaLogger:41 - Landing At HOME!!!
+2020-09-25 14:45:37 INFO  IRqaLogger:46 - Clicked Woman tab
+2020-09-25 14:45:37 INFO  IRqaLogger:49 - Ready to filter from Category
+2020-09-25 14:45:37 INFO  IRqaLogger:53 - Chose Size
+2020-09-25 14:45:37 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 14:45:41 INFO  IRqaLogger:63 - Move the Right Slider to Left to filter
+2020-09-25 14:45:41 INFO  IRqaLogger:67 - Verify through the movement checking
+2020-09-25 14:45:43 INFO  IRqaLogger:98 - Close browser
+2020-09-25 14:45:44 INFO  IRqaLogger:103 - Post-condition 
+2020-09-25 14:45:44 INFO  IRqaLogger:105 - Erase the previous data on the report
+2020-09-25 14:45:44 INFO  IRqaLogger:77 - Close browser
+2020-09-25 14:45:44 INFO  IRqaLogger:82 - Post-condition 
+2020-09-25 14:45:44 INFO  IRqaLogger:86 - Erase the previous data on the report
+2020-09-25 14:45:44 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 14:49:21 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:49:25 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:49:25 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:49:29 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:49:31 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:49:31 INFO  IRqaLogger:41 - Landing At HOME!!!
+2020-09-25 14:49:32 INFO  IRqaLogger:46 - Clicked Woman tab
+2020-09-25 14:49:32 INFO  IRqaLogger:49 - Ready to filter from Category
+2020-09-25 14:49:32 INFO  IRqaLogger:53 - Chose Size
+2020-09-25 14:49:32 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 14:49:36 INFO  IRqaLogger:63 - Move the Right Slider to Left to filter
+2020-09-25 14:49:36 INFO  IRqaLogger:67 - Verify through the movement checking
+2020-09-25 14:49:38 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 14:49:38 INFO  IRqaLogger:48 - Enter Serach keyword - printed
+2020-09-25 14:49:40 INFO  IRqaLogger:51 - Open Product Page as the result of the serch
+2020-09-25 14:49:40 INFO  IRqaLogger:56 - Scroll down
+2020-09-25 14:49:40 INFO  IRqaLogger:61 - Global wait
+2020-09-25 14:49:42 INFO  IRqaLogger:66 - Quick view displayed
+2020-09-25 14:49:42 INFO  IRqaLogger:73 - Verified!!
+2020-09-25 14:49:44 INFO  IRqaLogger:77 - Closed Quick View
+2020-09-25 14:49:45 INFO  IRqaLogger:81 - Listview displayed
+2020-09-25 14:49:47 INFO  IRqaLogger:85 - Shoes Product details
+2020-09-25 14:49:47 INFO  IRqaLogger:91 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 14:49:47 INFO  IRqaLogger:98 - Close browser
+2020-09-25 14:49:48 INFO  IRqaLogger:103 - Post-condition 
+2020-09-25 14:49:48 INFO  IRqaLogger:105 - Erase the previous data on the report
+2020-09-25 14:49:48 INFO  IRqaLogger:77 - Close browser
+2020-09-25 14:49:48 INFO  IRqaLogger:82 - Post-condition 
+2020-09-25 14:49:48 INFO  IRqaLogger:86 - Erase the previous data on the report
+2020-09-25 14:49:48 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2020-09-25 14:49:48 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2020-09-25 14:49:48 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2020-09-25 14:49:48 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2020-09-25 14:49:48 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2020-09-25 14:49:48 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2020-09-25 14:49:48 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2020-09-25 14:49:48 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2020-09-25 14:49:48 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2020-09-25 14:49:48 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2020-09-25 14:49:48 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2020-09-25 14:49:48 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2020-09-25 14:49:48 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-25 14:49:48 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2020-09-25 14:49:48 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2020-09-25 14:49:48 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2020-09-25 14:49:48 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2020-09-25 14:49:48 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2020-09-25 14:49:48 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2020-09-25 14:49:48 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2020-09-25 14:49:48 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2020-09-25 14:49:48 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2020-09-25 14:49:48 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2020-09-25 14:49:48 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2020-09-25 14:49:48 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 14:59:22 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 14:59:26 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 14:59:26 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 14:59:28 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 14:59:30 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 14:59:30 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 14:59:30 INFO  IRqaLogger:48 - Enter Serach keyword - printed
+2020-09-25 14:59:32 INFO  IRqaLogger:51 - Open Product Page as the result of the serch
+2020-09-25 14:59:32 INFO  IRqaLogger:56 - Scroll down
+2020-09-25 14:59:32 INFO  IRqaLogger:61 - Global wait
+2020-09-25 14:59:32 INFO  IRqaLogger:66 - Quick view displayed
+2020-09-25 14:59:32 INFO  IRqaLogger:73 - Verified!!
+2020-09-25 14:59:34 INFO  IRqaLogger:77 - Closed Quick View
+2020-09-25 14:59:35 INFO  IRqaLogger:81 - Listview displayed
+2020-09-25 14:59:37 INFO  IRqaLogger:85 - Shoes Product details
+2020-09-25 14:59:37 INFO  IRqaLogger:91 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 14:59:37 INFO  IRqaLogger:98 - Close browser
+2020-09-25 14:59:37 INFO  IRqaLogger:103 - Post-condition 
+2020-09-25 14:59:37 INFO  IRqaLogger:105 - Erase the previous data on the report
+2020-09-25 14:59:37 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 15:00:35 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 15:00:39 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 15:00:39 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 15:00:41 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 15:00:44 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 15:00:44 INFO  IRqaLogger:41 - Landing At HOME!!!
+2020-09-25 15:00:46 INFO  IRqaLogger:46 - Clicked Woman tab
+2020-09-25 15:00:46 INFO  IRqaLogger:49 - Ready to filter from Category
+2020-09-25 15:00:46 INFO  IRqaLogger:53 - Chose Size
+2020-09-25 15:00:46 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 15:00:50 INFO  IRqaLogger:63 - Move the Right Slider to Left to filter
+2020-09-25 15:00:51 INFO  IRqaLogger:67 - Verify through the movement checking
+2020-09-25 15:00:53 INFO  IRqaLogger:44 - Landing At HOME!!!
+2020-09-25 15:00:53 INFO  IRqaLogger:48 - Enter Serach keyword - printed
+2020-09-25 15:00:54 INFO  IRqaLogger:51 - Open Product Page as the result of the serch
+2020-09-25 15:00:54 INFO  IRqaLogger:56 - Scroll down
+2020-09-25 15:00:54 INFO  IRqaLogger:61 - Global wait
+2020-09-25 15:00:54 INFO  IRqaLogger:66 - Quick view displayed
+2020-09-25 15:00:54 INFO  IRqaLogger:73 - Verified!!
+2020-09-25 15:00:56 INFO  IRqaLogger:77 - Closed Quick View
+2020-09-25 15:00:57 INFO  IRqaLogger:81 - Listview displayed
+2020-09-25 15:00:58 INFO  IRqaLogger:85 - Shoes Product details
+2020-09-25 15:00:58 INFO  IRqaLogger:91 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 15:00:58 INFO  IRqaLogger:98 - Close browser
+2020-09-25 15:00:58 INFO  IRqaLogger:103 - Post-condition 
+2020-09-25 15:00:58 INFO  IRqaLogger:105 - Erase the previous data on the report
+2020-09-25 15:00:58 INFO  IRqaLogger:77 - Close browser
+2020-09-25 15:00:58 INFO  IRqaLogger:82 - Post-condition 
+2020-09-25 15:00:58 INFO  IRqaLogger:86 - Erase the previous data on the report
+2020-09-25 15:00:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2020-09-25 15:00:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2020-09-25 15:00:58 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2020-09-25 15:00:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2020-09-25 15:00:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2020-09-25 15:00:58 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2020-09-25 15:00:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2020-09-25 15:00:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2020-09-25 15:00:58 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2020-09-25 15:00:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2020-09-25 15:00:59 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2020-09-25 15:00:59 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2020-09-25 15:00:59 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/irene/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2020-09-25 15:00:59 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 15:09:49 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 15:09:53 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 15:09:53 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 15:09:57 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 15:09:59 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 15:11:39 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 15:11:43 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 15:11:43 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 15:11:45 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 15:11:47 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 15:11:47 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 15:11:49 INFO  IRqaLogger:50 - Clicked Woman tab
+2020-09-25 15:11:49 INFO  IRqaLogger:53 - Ready to filter from Category
+2020-09-25 15:11:49 INFO  IRqaLogger:57 - Chose Size
+2020-09-25 15:11:49 INFO  IRqaLogger:61 - Scroll down
+2020-09-25 15:11:53 INFO  IRqaLogger:67 - Move the Right Slider to Left to filter
+2020-09-25 15:11:53 INFO  IRqaLogger:71 - Verify through the movement checking
+2020-09-25 15:11:55 INFO  IRqaLogger:81 - Close browser
+2020-09-25 15:11:56 INFO  IRqaLogger:86 - Post-condition 
+2020-09-25 15:11:56 INFO  IRqaLogger:90 - Erase the previous data on the report
+2020-09-25 15:11:56 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 15:13:44 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 15:13:48 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 15:13:48 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 15:13:50 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 15:13:52 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 15:13:52 INFO  IRqaLogger:41 - Landing At HOME!!!
+2020-09-25 15:13:53 INFO  IRqaLogger:46 - Clicked Woman tab
+2020-09-25 15:13:53 INFO  IRqaLogger:49 - Ready to filter from Category
+2020-09-25 15:13:53 INFO  IRqaLogger:53 - Chose Size
+2020-09-25 15:13:53 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 15:13:57 INFO  IRqaLogger:63 - Move the Right Slider to Left to filter
+2020-09-25 15:13:58 INFO  IRqaLogger:67 - Verify through the movement checking
+2020-09-25 15:14:00 INFO  IRqaLogger:77 - Close browser
+2020-09-25 15:14:00 INFO  IRqaLogger:82 - Post-condition 
+2020-09-25 15:14:00 INFO  IRqaLogger:86 - Erase the previous data on the report
+2020-09-25 15:14:01 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 15:16:30 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 15:16:34 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 15:16:34 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 15:16:37 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 15:16:39 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 15:16:39 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 15:16:41 INFO  IRqaLogger:50 - Clicked Woman tab
+2020-09-25 15:16:41 INFO  IRqaLogger:53 - Ready to filter from Category
+2020-09-25 15:16:41 INFO  IRqaLogger:57 - Chose Size
+2020-09-25 15:16:41 INFO  IRqaLogger:61 - Scroll down
+2020-09-25 15:16:45 INFO  IRqaLogger:67 - Move the Right Slider to Left to filter
+2020-09-25 15:16:45 INFO  IRqaLogger:71 - Verify through the movement checking
+2020-09-25 15:16:47 INFO  IRqaLogger:81 - Close browser
+2020-09-25 15:16:48 INFO  IRqaLogger:86 - Post-condition 
+2020-09-25 15:16:48 INFO  IRqaLogger:90 - Erase the previous data on the report
+2020-09-25 15:16:48 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 15:18:17 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 15:18:21 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 15:18:21 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 15:18:24 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 15:18:26 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 15:18:26 INFO  IRqaLogger:41 - Landing At HOME!!!
+2020-09-25 15:18:28 INFO  IRqaLogger:46 - Clicked Woman tab
+2020-09-25 15:18:28 INFO  IRqaLogger:49 - Ready to filter from Category
+2020-09-25 15:18:28 INFO  IRqaLogger:53 - Chose Size
+2020-09-25 15:18:28 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 15:18:32 INFO  IRqaLogger:63 - Move the Right Slider to Left to filter
+2020-09-25 15:18:33 INFO  IRqaLogger:67 - Verify through the movement checking
+2020-09-25 15:18:35 INFO  IRqaLogger:77 - Close browser
+2020-09-25 15:18:36 INFO  IRqaLogger:82 - Post-condition 
+2020-09-25 15:18:36 INFO  IRqaLogger:86 - Erase the previous data on the report
+2020-09-25 15:18:36 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 15:20:07 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 15:20:11 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 15:20:11 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 15:20:13 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 15:20:15 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 15:20:15 INFO  IRqaLogger:41 - Landing At HOME!!!
+2020-09-25 15:20:17 INFO  IRqaLogger:46 - Clicked Woman tab
+2020-09-25 15:20:17 INFO  IRqaLogger:49 - Ready to filter from Category
+2020-09-25 15:20:17 INFO  IRqaLogger:53 - Chose Size
+2020-09-25 15:20:17 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 15:20:21 INFO  IRqaLogger:63 - Move the Right Slider to Left to filter
+2020-09-25 15:20:21 INFO  IRqaLogger:67 - Verify through the movement checking
+2020-09-25 15:20:24 INFO  IRqaLogger:77 - Close browser
+2020-09-25 15:20:24 INFO  IRqaLogger:82 - Post-condition 
+2020-09-25 15:20:24 INFO  IRqaLogger:86 - Erase the previous data on the report
+2020-09-25 15:20:24 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 15:24:22 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 15:24:26 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 15:24:26 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 15:24:28 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 15:24:31 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 15:24:31 INFO  IRqaLogger:41 - Landing At HOME!!!
+2020-09-25 15:24:32 INFO  IRqaLogger:46 - Clicked Woman tab
+2020-09-25 15:24:32 INFO  IRqaLogger:49 - Ready to filter from Category
+2020-09-25 15:24:32 INFO  IRqaLogger:53 - Chose Size
+2020-09-25 15:24:33 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 15:24:37 INFO  IRqaLogger:63 - Move the Right Slider to Left to filter
+2020-09-25 15:24:37 INFO  IRqaLogger:67 - Verify through the movement checking
+2020-09-25 15:24:37 INFO  IRqaLogger:77 - Close browser
+2020-09-25 15:24:38 INFO  IRqaLogger:82 - Post-condition 
+2020-09-25 15:24:38 INFO  IRqaLogger:86 - Erase the previous data on the report
+2020-09-25 15:24:38 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 15:34:07 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 15:34:11 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 15:34:11 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 15:34:14 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 15:34:16 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 15:36:19 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 15:36:22 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 15:36:22 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 15:36:33 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 15:36:35 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 15:36:35 INFO  IRqaLogger:43 - Landing At HOME!!!
+2020-09-25 15:36:35 INFO  IRqaLogger:47 - Enter Serach keyword - printed
+2020-09-25 15:36:40 INFO  IRqaLogger:50 - Open Product Page as the result of the serch
+2020-09-25 15:36:40 INFO  IRqaLogger:55 - Scroll down
+2020-09-25 15:36:40 INFO  IRqaLogger:60 - Global wait
+2020-09-25 15:36:50 INFO  IRqaLogger:97 - Close browser
+2020-09-25 15:36:50 INFO  IRqaLogger:102 - Post-condition 
+2020-09-25 15:36:50 INFO  IRqaLogger:104 - Erase the previous data on the report
+2020-09-25 15:36:50 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 16:15:34 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 16:15:37 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 16:15:37 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 16:15:39 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 16:15:42 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 16:15:42 INFO  IRqaLogger:47 - Landing at HOME
+2020-09-25 16:15:44 INFO  IRqaLogger:51 - Clicked Signin
+2020-09-25 16:15:44 INFO  IRqaLogger:54 - Open Login Page
+2020-09-25 16:15:46 INFO  IRqaLogger:59 - Enter Email and submit to register
+2020-09-25 16:15:46 INFO  IRqaLogger:62 - Open Contact Page
+2020-09-25 16:15:46 INFO  IRqaLogger:66 - Clicked Contact
+2020-09-25 16:15:46 INFO  IRqaLogger:71 - Chose the subject of the message - Customer service
+2020-09-25 16:15:46 INFO  IRqaLogger:75 - Entered Messages
+2020-09-25 16:15:47 INFO  IRqaLogger:79 - Chosen a file to upload
+2020-09-25 16:15:47 INFO  IRqaLogger:83 - Submitted the message
+2020-09-25 16:15:47 INFO  IRqaLogger:86 - Verified the test result
+2020-09-25 16:15:47 INFO  IRqaLogger:97 - Close browser
+2020-09-25 16:15:48 INFO  IRqaLogger:100 - Post-condition 
+2020-09-25 16:15:48 INFO  IRqaLogger:102 - Erase the previous data on the report
+2020-09-25 16:15:48 INFO  IRqaLogger:75 - Close the Browser
+2020-09-25 16:27:55 DEBUG IRqaLogger:41 - loading the config property file
+2020-09-25 16:27:59 INFO  IRqaLogger:48 - Open Chrome Browser
+2020-09-25 16:27:59 INFO  IRqaLogger:63 - Get Website URL
+2020-09-25 16:28:01 INFO  IRqaLogger:65 - Maximize the Browser
+2020-09-25 16:28:03 INFO  IRqaLogger:67 - Global Wait
+2020-09-25 16:28:03 INFO  IRqaLogger:49 - Landing At HOME!!!
+2020-09-25 16:28:06 INFO  IRqaLogger:54 - Clicked Signin
+2020-09-25 16:28:06 INFO  IRqaLogger:57 - Open Login Page!!!
+2020-09-25 16:28:07 INFO  IRqaLogger:62 - Enter Email and submit to register
+2020-09-25 16:28:07 INFO  IRqaLogger:70 - Open MyAccount Page
+2020-09-25 16:28:08 INFO  IRqaLogger:75 - Clicked Oreder History
+2020-09-25 16:28:08 INFO  IRqaLogger:81 - 1st file downloded
+2020-09-25 16:28:13 INFO  IRqaLogger:85 - Verified the download
+2020-09-25 16:28:13 INFO  IRqaLogger:51 - Landing At HOME!!!
+2020-09-25 16:28:15 INFO  IRqaLogger:72 - Open MyAccount Page
+2020-09-25 16:28:15 INFO  IRqaLogger:76 - Welcome HOME!!
+2020-09-25 16:28:16 INFO  IRqaLogger:80 - Scroll down
+2020-09-25 16:28:16 INFO  IRqaLogger:87 - Clicked BestSeller Tab
+2020-09-25 16:28:17 INFO  IRqaLogger:92 - Selected a product
+2020-09-25 16:28:17 INFO  IRqaLogger:95 - Yeah! I came into the product Detailed page
+2020-09-25 16:28:17 INFO  IRqaLogger:99 - Scroll down one more time
+2020-09-25 16:28:17 INFO  IRqaLogger:105 - Selected size M
+2020-09-25 16:28:17 INFO  IRqaLogger:110 - Selected White color
+2020-09-25 16:28:19 INFO  IRqaLogger:115 - Added the item in the shopping cart
+2020-09-25 16:28:21 INFO  IRqaLogger:119 - Checkout
+2020-09-25 16:28:21 INFO  IRqaLogger:123 - Go Go Sing Shopping Cart!!
+2020-09-25 16:28:21 INFO  IRqaLogger:128 - Scroll down
+2020-09-25 16:28:22 INFO  IRqaLogger:132 - Added one more quantity
+2020-09-25 16:28:23 INFO  IRqaLogger:136 - Checkout the shopping cart
+2020-09-25 16:28:23 INFO  IRqaLogger:140 - Wow, finally Payment Page
+2020-09-25 16:28:23 INFO  IRqaLogger:145 - Write a specific request
+2020-09-25 16:28:24 INFO  IRqaLogger:149 - Done Address setting
+2020-09-25 16:28:24 INFO  IRqaLogger:154 - Scroll down
+2020-09-25 16:28:24 INFO  IRqaLogger:158 - Checked Terms of Service agreement
+2020-09-25 16:28:25 INFO  IRqaLogger:162 - Proceed checkout
+2020-09-25 16:28:25 INFO  IRqaLogger:167 - Scroll down
+2020-09-25 16:28:26 INFO  IRqaLogger:171 - Selected Payment option
+2020-09-25 16:28:26 INFO  IRqaLogger:176 - Scroll down
+2020-09-25 16:28:26 INFO  IRqaLogger:179 - Pay the order
+2020-09-25 16:28:29 INFO  IRqaLogger:184 - Assert with title name
+2020-09-25 16:28:29 INFO  IRqaLogger:41 - Landing At HOME!!!
+2020-09-25 16:28:31 INFO  IRqaLogger:46 - Clicked Woman tab
+2020-09-25 16:28:31 INFO  IRqaLogger:49 - Ready to filter from Category
+2020-09-25 16:28:31 INFO  IRqaLogger:53 - Chose Size
+2020-09-25 16:28:31 INFO  IRqaLogger:57 - Scroll down
+2020-09-25 16:28:35 INFO  IRqaLogger:63 - Move the Right Slider to Left to filter
+2020-09-25 16:28:35 INFO  IRqaLogger:67 - Verify through the movement checking
+2020-09-25 16:28:37 INFO  IRqaLogger:49 - Landing At HOME!!!
+2020-09-25 16:28:41 INFO  IRqaLogger:122 - Delete the New Added Address
+2020-09-25 16:28:41 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 16:28:43 INFO  IRqaLogger:82 - Open MyAccount Page!!!
+2020-09-25 16:28:46 INFO  IRqaLogger:87 - Logout !!!
+2020-09-25 16:28:48 INFO  IRqaLogger:91 - Assert with title name
+2020-09-25 16:28:51 INFO  IRqaLogger:60 - Enter Email and submit to register
+2020-09-25 16:28:53 INFO  IRqaLogger:70 - Clicked My Personal Information 
+2020-09-25 16:28:53 INFO  IRqaLogger:73 - Open Personal Update Page
+2020-09-25 16:28:53 INFO  IRqaLogger:77 - Save Updated Information
+2020-09-25 16:28:55 INFO  IRqaLogger:82 - Verified the test result
+2020-09-25 16:28:55 INFO  IRqaLogger:87 - Let's go back home
+2020-09-25 16:29:01 INFO  IRqaLogger:105 - Enter Email and submit to register
+2020-09-25 16:29:01 INFO  IRqaLogger:115 - Clicked My Personal Information 
+2020-09-25 16:29:01 INFO  IRqaLogger:118 - Open Personal Update Page
+2020-09-25 16:29:01 INFO  IRqaLogger:122 - Save Updated Information
+2020-09-25 16:29:02 INFO  IRqaLogger:127 - Verified the test result
+2020-09-25 16:29:03 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 16:29:05 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 16:29:07 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 16:29:09 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 16:29:11 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 16:29:13 INFO  IRqaLogger:45 - Landing At HOME!!!
+2020-09-25 16:29:15 INFO  IRqaLogger:54 - Landing At HOME!!!
+2020-09-25 16:29:17 INFO  IRqaLogger:74 - Open My Account Page
+2020-09-25 16:29:19 INFO  IRqaLogger:47 - Landing at HOME
+2020-09-25 16:29:21 INFO  IRqaLogger:43 - Landing At HOME!!!
+2020-09-25 16:29:21 INFO  IRqaLogger:47 - Enter Serach keyword - printed
+2020-09-25 16:29:22 INFO  IRqaLogger:50 - Open Product Page as the result of the serch
+2020-09-25 16:29:22 INFO  IRqaLogger:55 - Scroll down
+2020-09-25 16:29:23 INFO  IRqaLogger:60 - Global wait
+2020-09-25 16:29:23 INFO  IRqaLogger:65 - Quick view displayed
+2020-09-25 16:29:23 INFO  IRqaLogger:72 - Verified!!
+2020-09-25 16:29:24 INFO  IRqaLogger:76 - Closed Quick View
+2020-09-25 16:29:24 INFO  IRqaLogger:80 - Listview displayed
+2020-09-25 16:29:25 INFO  IRqaLogger:84 - Shoes Product details
+2020-09-25 16:29:25 INFO  IRqaLogger:90 - TC003_SearchProduct : completed and passed!!!
+2020-09-25 16:29:25 INFO  IRqaLogger:101 - Close browser
+2020-09-25 16:29:26 INFO  IRqaLogger:106 - Post-condition 
+2020-09-25 16:29:26 INFO  IRqaLogger:109 - Erase the previous data on the report
+2020-09-25 16:29:26 INFO  IRqaLogger:97 - Close browser
+2020-09-25 16:29:26 INFO  IRqaLogger:102 - Post-condition 
+2020-09-25 16:29:26 INFO  IRqaLogger:104 - Erase the previous data on the report
+2020-09-25 16:29:26 INFO  IRqaLogger:77 - Close browser
+2020-09-25 16:29:26 INFO  IRqaLogger:82 - Post-condition 
+2020-09-25 16:29:26 INFO  IRqaLogger:85 - Erase the previous data on the report
+2020-09-25 16:29:26 INFO  IRqaLogger:108 - Close browser
+2020-09-25 16:29:26 INFO  IRqaLogger:113 - Post-condition 
+2020-09-25 16:29:26 INFO  IRqaLogger:116 - Erase the previous data on the report
+2020-09-25 16:29:26 INFO  IRqaLogger:194 - Close browser
+2020-09-25 16:29:26 INFO  IRqaLogger:199 - Post-condition 
+2020-09-25 16:29:26 INFO  IRqaLogger:202 - Erase the previous data on the report
+2020-09-25 16:29:26 INFO  IRqaLogger:93 - Close browser
+2020-09-25 16:29:26 INFO  IRqaLogger:98 - Post-condition 
+2020-09-25 16:29:26 INFO  IRqaLogger:101 - Erase the previous data on the report
+2020-09-25 16:29:26 INFO  IRqaLogger:137 - Close browser
+2020-09-25 16:29:26 INFO  IRqaLogger:142 - Post-condition 
+2020-09-25 16:29:26 INFO  IRqaLogger:145 - Erase the previous data on the report
+2020-09-25 16:29:26 INFO  IRqaLogger:137 - Close browser
+2020-09-25 16:29:26 INFO  IRqaLogger:140 - Post-condition 
+2020-09-25 16:29:26 INFO  IRqaLogger:143 - Erase the previous data on the report
+2020-09-25 16:29:26 INFO  IRqaLogger:120 - Close browser
+2020-09-25 16:29:26 INFO  IRqaLogger:123 - Post-condition 
+2020-09-25 16:29:26 INFO  IRqaLogger:125 - Erase the previous data on the report
+2020-09-25 16:29:26 INFO  IRqaLogger:97 - Close browser
+2020-09-25 16:29:26 INFO  IRqaLogger:100 - Post-condition 
+2020-09-25 16:29:26 INFO  IRqaLogger:102 - Erase the previous data on the report
+2020-09-25 16:29:26 INFO  IRqaLogger:75 - Close the Browser

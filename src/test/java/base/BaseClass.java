@@ -16,11 +16,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 
-import utilities.ExtentManager2;
-
+import utilities.ExtentManager;
 
 
 public class BaseClass {
@@ -29,8 +28,7 @@ public class BaseClass {
 	public static Properties config = new Properties();
 	public static Logger log = Logger.getLogger("IRqaLogger");
 	public static ExtentTest test;
-	public static ExtentReports report;
-	public static ExtentReports rep = ExtentManager2.getInstance();
+	public static ExtentReports report = ExtentManager.createInstance();
 		
 	@BeforeSuite()
 	public void init() throws IOException {		

@@ -2,14 +2,13 @@ package testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 
 import base.BaseClass;
 import pages.LandingPage;
@@ -19,7 +18,7 @@ import pages.MyAccountPage;
 import utilities.ExcelUtils;
 import utilities.ExtentManager;
 
-@Listeners(utilities.ExtentListeners.class)
+
 public class TC004_VerifyLogin extends BaseClass {
 
 	ExtentReports report;
@@ -31,44 +30,45 @@ public class TC004_VerifyLogin extends BaseClass {
 	MyAccountPage myacc;
 	String actual, expected;
 
-	@BeforeTest
+	@BeforeMethod
 	public void setup() {
-		report = new ExtentReports("C:\\eclipse-workspace\\qaProject1\\resources\\reports\\TC004_VerifyLogin.html");
-		test = report.startTest("Verify Login");
+
+		report = new ExtentReports();
+		test = report.createTest("TC004 Verify Login");
 	}
 
 	@Test(dataProvider = "logindata", description = "To verify User Account, Read data from Excel and use the data ")
 	public void VerifyLogin(String myEmail, String passwd) {
 
-		test.log(LogStatus.INFO, "TC004_VerifyLogin");
-		test.log(LogStatus.INFO, "Landing at Home!!!");
+		test.log(Status.INFO, "TC004_VerifyLogin");
+		test.log(Status.INFO, "Landing at Home!!!");
 		log.info("Landing At HOME!!!");
 		landP = new LandingPage(driver);
 
 		landP.doClick();
-		test.log(LogStatus.INFO, "Clicked Signin button");
+		test.log(Status.INFO, "Clicked Signin button");
 		log.info("Sign in button clicked");
 
-		test.log(LogStatus.INFO, "Open Login Page");
+		test.log(Status.INFO, "Open Login Page");
 		log.info("Open Login Page!!!");
 		logP = new LoginPage(driver);
-		test.log(LogStatus.INFO, "At Login Page");
+		test.log(Status.INFO, "At Login Page");
 
-		test.log(LogStatus.INFO, "Entered Email and Password");
+		test.log(Status.INFO, "Entered Email and Password");
 		log.info("Entered Email and Password");
 		logP.doLogin(myEmail, passwd);
 
-		test.log(LogStatus.INFO, "Test verify using title");
+		test.log(Status.INFO, "Test verify using title");
 		log.info("Assert with title");
 		actual = driver.getTitle();
 		expected = "My account - My Store";
 		Assert.assertEquals(actual, expected);
 
-		test.log(LogStatus.INFO, "Open MyAccount Page");
+		test.log(Status.INFO, "Open MyAccount Page");
 		log.info("Open MyAccount Page!!!");
 		myacc = new MyAccountPage(driver);
 
-		test.log(LogStatus.INFO, "Logout. Bye~");
+		test.log(Status.INFO, "Logout. Bye~");
 		log.info("Logout !!!");
 		myacc.doLogout();
 
@@ -106,14 +106,13 @@ public class TC004_VerifyLogin extends BaseClass {
 	public void tearDown() {
 
 		log.info("Close browser");
-		test.log(LogStatus.INFO, "Close Browser");
+		test.log(Status.INFO, "Close Browser");
 		driver.quit();
 
-		test.log(LogStatus.INFO, "Post-condition");
+		test.log(Status.INFO, "Post-condition");
 		log.info("Post-condition ");
-		report.endTest(test);
 
-		test.log(LogStatus.INFO, "Erase the previous data on the report");
+		test.log(Status.INFO, "Erase the previous data on the report");
 		log.info("Erase the previous data on the report");
 		report.flush();
 	}

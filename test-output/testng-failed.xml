@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="regression.TC008_MyPersonalInformation">
+      <class name="testcases.TC004_VerifyLogin">
         <methods>
           <include name="teardown"/>
-          <include name="myInformation"/>
-          <include name="reverseLogin"/>
+          <include name="VerifyLogin" invocation-numbers="0 1 2 3 4 5"/>
           <include name="setup"/>
-          <include name="reverseMyInformation"/>
-          <include name="login"/>
-          <include name="init"/>
           <include name="tearDown"/>
+          <include name="init"/>
         </methods>
-      </class> <!-- regression.TC008_MyPersonalInformation -->
-      <class name="regression.TC007_MyAddresses">
+      </class> <!-- testcases.TC004_VerifyLogin -->
+      <class name="testcases.TC007_MyAddresses">
         <methods>
-          <include name="teardown"/>
-          <include name="login"/>
-          <include name="tearDown"/>
-          <include name="delNewAddress"/>
-          <include name="UpdateAddress"/>
-          <include name="init"/>
           <include name="addNewAddress"/>
+          <include name="teardown"/>
           <include name="setup"/>
+          <include name="UpdateAddress"/>
+          <include name="delNewAddress"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- regression.TC007_MyAddresses -->
-      <class name="regression.TC009_Wishlist">
+      </class> <!-- testcases.TC007_MyAddresses -->
+      <class name="testcases.TC010_Contact">
+        <methods>
+          <include name="teardown"/>
+          <include name="fileUpload"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.TC010_Contact -->
+      <class name="testcases.TC009_Wishlist">
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
@@ -36,7 +42,26 @@
           <include name="wishList"/>
           <include name="init"/>
         </methods>
-      </class> <!-- regression.TC009_Wishlist -->
+      </class> <!-- testcases.TC009_Wishlist -->
+      <class name="testcases.TC005_BuyProduct">
+        <methods>
+          <include name="teardown"/>
+          <include name="login"/>
+          <include name="init"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC005_BuyProduct -->
+      <class name="testcases.TC001_Registration">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="register"/>
+          <include name="logout"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.TC001_Registration -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
