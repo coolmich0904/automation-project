@@ -1,4 +1,3 @@
----
 
 ### **Final README.md**
 
@@ -88,7 +87,6 @@ resources
 This project is for educational purposes and showcases automation testing best practices.
 ```
 
----
 
 ### **Changes Made to Add Clarity**
 1. **All Korean descriptions translated into English**:
@@ -107,7 +105,6 @@ This project is for educational purposes and showcases automation testing best p
 5. **Consistent Formatting**:
    - Used `bash` for code blocks and ensured headers are properly styled with `##` and `###`.
 
----
 
 ### **Next Steps**
 - Paste this README.md into your GitHub repository's main directory.
