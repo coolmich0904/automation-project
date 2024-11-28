@@ -4,6 +4,11 @@
 ## Overview
 This project demonstrates a robust test automation framework using **Selenium WebDriver**, **TestNG**, **Maven**, and **Jenkins**. It is designed to automate end-to-end testing for [Automation Practice](http://automationpractice.com/), a sample e-commerce website.
 
+# Automation Demo Video
+
+You can watch the demo video here:
+[Automation Test Demo](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
 ## Key Features
 - **Modular Design**:
   - Organized into `base`, `pages`, and `testcases` directories for better maintainability and scalability.
