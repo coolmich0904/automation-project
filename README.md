@@ -36,7 +36,7 @@ resources
   ├── extentconfig        # Extent Report configuration
 ```
 
----
+
 ## CI/CD Pipeline
 1. **GitHub**:
    - Stores the source code and tracks changes.
