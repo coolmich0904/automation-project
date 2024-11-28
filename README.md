@@ -6,7 +6,7 @@
 
 ## Overview
 This project demonstrates a robust test automation framework using **Selenium WebDriver**, **TestNG**, **Maven**, and **Jenkins**. It is designed to automate end-to-end testing for [Automation Practice](http://automationpractice.com/), a sample e-commerce website.
-
+---
 ## Key Features
 - **Modular Design**:
   - Organized into `base`, `pages`, and `testcases` directories for better maintainability and scalability.
@@ -20,7 +20,7 @@ This project demonstrates a robust test automation framework using **Selenium We
 - **Detailed Reporting and Logging**:
   - Generates comprehensive **HTML reports** using Extent Report.
   - Logs execution details with **Log4j**, enhancing debugging efficiency.
-
+---
 ## Folder Structure
 ```
 src/test/java
@@ -35,8 +35,7 @@ resources
   ├── config.properties   # Environment and browser settings
   ├── extentconfig        # Extent Report configuration
 ```
-
-
+---
 ## CI/CD Pipeline
 1. **GitHub**:
    - Stores the source code and tracks changes.
@@ -46,7 +45,7 @@ resources
    - Handles dependency management and executes tests using `clean test`.
 4. **Extent Report**:
    - Produces detailed HTML reports for test results.
-
+---
 ## Key Technologies Used
 - **Languages**: Java
 - **Automation Frameworks**: Selenium WebDriver, TestNG
@@ -55,6 +54,7 @@ resources
 - **Reporting**: Extent Report
 - **Logging**: Log4j
 
+---
 ## How to Run the Project
 1. Clone the repository:
    ```bash
@@ -70,6 +70,7 @@ resources
    - Create a new Jenkins job linked to the GitHub repository.
    - Configure Jenkins to trigger `mvn clean test` for builds.
 
+---
 ## Notable Test Scenarios
 - Automated functional and regression tests for critical user flows such as:
   - Login and authentication.
