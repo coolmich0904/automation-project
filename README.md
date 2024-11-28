@@ -1,4 +1,4 @@
-
+---
 ### **Final README.md**
 
 ```markdown
@@ -36,6 +36,7 @@ resources
   ├── extentconfig        # Extent Report configuration
 ```
 
+---
 ## CI/CD Pipeline
 1. **GitHub**:
    - Stores the source code and tracks changes.
@@ -87,6 +88,7 @@ resources
 This project is for educational purposes and showcases automation testing best practices.
 ```
 
+---
 
 ### **Changes Made to Add Clarity**
 1. **All Korean descriptions translated into English**:
