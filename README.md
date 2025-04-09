@@ -106,7 +106,3 @@ This project is for educational purposes and showcases automation testing best p
    - Used `bash` for code blocks and ensured headers are properly styled with `##` and `###`.
 
 
-### **Next Steps**
-- Paste this README.md into your GitHub repository's main directory.
-- Add screenshots (if available) to make the README more visually appealing.
-- Let me know if you need help with adding the screenshots or fine-tuning specific sections! 😊
